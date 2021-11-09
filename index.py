@@ -1,8 +1,8 @@
 import ply.lex as lex 
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
+import spacy
 
-ps = PorterStemmer()
+nlp = spacy.load("en_core_web_sm")
+validTokens = []        #stores the valid tokens/words
 
 # List of token names
 tokens = (
@@ -12,22 +12,19 @@ tokens = (
 # A regular expression rule for words
 def t_WORD(t):
     r'[a-zA-Z]+'   
-    value = str(t.value)
-    t.value = ps.stem(t.value) #stemming the words   
+    t.value = str(t.value)
+    validTokens.append(nlp(t.value)[0])     #lemmatize
     return t
-
-# A string containing ignored characters (spaces and tabs)
-t_ignore  = ' \t\n,?!"'
-
+    
 # Error handling rule
 def t_error(t):
-    print("Illegal character '%s'" % t.value[0])
+    #anyother characters
     t.lexer.skip(1)
 
 # Build the lexer
 lexer = lex.lex()
 
-# input data
+# input poem
 file = open("input.txt","r");
 data = file.read()
  
@@ -37,6 +34,9 @@ lexer.input(data)
 # Tokenize
 while True:
     tok = lexer.token()
-    if not tok: 
-        break      # No more input
-    print(tok.value)
+    if not tok:
+        break
+
+for lemma in validTokens:
+    print(lemma.lemma_ + " - " + spacy.explain(lemma.pos_))
+
