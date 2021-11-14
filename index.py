@@ -25,7 +25,7 @@ def t_error(t):
 lexer = lex.lex()
 
 # input poem
-file = open("input.txt","r");
+file = open("input.txt","r")
 data = file.read()
  
 # Give the lexer some input
