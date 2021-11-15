@@ -5,8 +5,7 @@ import syntaxOntology
 nlp = spacy.load("en_core_web_sm")
 validTokens = []        #stores the valid tokens/words
 lastWords = [] #store the last words in the sentence to determine the rhyme scheme
-
-previousToken = ""
+previousToken = "" #stores the previous token
 
 # List of token names
 tokens = (
@@ -26,8 +25,10 @@ def t_WORD(t):
 def t_error(t):
     #detect new line character for the purpose of determining the last word in the line
     t.value = str(t.value)
-    if t.value[0] == '\n':
+    global previousToken
+    if t.value[0] == '\n' and previousToken != "":
         lastWords.append(previousToken)
+        previousToken = ""  #incase of multiple consecutive new lines
     #anyother characters
     t.lexer.skip(1)
 
