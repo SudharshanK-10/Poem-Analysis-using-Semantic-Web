@@ -69,5 +69,4 @@ print(syntaxOntologyObj.getRhymeScheme(lastWords))
 # Get alliterations
 sentences = data.split('\n')
 sentences = [sentence for sentence in sentences if sentence]
-    
-print(syntaxOntologyObj.getAlliterations(sentences))
+print("Number of alliterating words: " + str(syntaxOntologyObj.getAlliterations(sentences)))
