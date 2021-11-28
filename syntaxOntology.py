@@ -2,9 +2,7 @@
 # pip install pronouncing
 
 import pronouncing
-import nltk
 import string
-import re
 
 from nltk.corpus import cmudict
 from nltk.corpus import stopwords
@@ -13,7 +11,6 @@ class syntaxOntology :
 
     phonemeDict = cmudict.dict()
     stopwords = stopwords.words("english")
-    removePunctuation = lambda x: re.sub(r'[^\w\s]', '', x)
 
     def getRhymeScheme(self, lastWords) :
         curMatch = 'a'
@@ -41,7 +38,6 @@ class syntaxOntology :
     # Returns the first syllable of a word in dictionary
     def getPhonemes(self, word) :
         word = word.lower()
-        # print("WORD: " + word)
         if word in self.phonemeDict:
             return self.phonemeDict[word][0]
 
@@ -60,44 +56,38 @@ class syntaxOntology :
         # TODO: Find a way to dynamically determine the allowed proximity based on 
         #       number of words per line
         # Allowed number of gaps between alliterating words
-        proximity = 5
+        proximity = 3
         index = 0
 
         totalWords = 0
-        allitCount = 0
+        totalAllitCount = 0
 
         for sentence in sentences:
             proximalPhonemes = [None] * proximity
 
-            numOfAllitWords = 0
+            numOfAlliterations = 0
 
             for word in sentence.split(sep=" "):
                 # Remove punctuations
                 word = word.translate(str.maketrans('', '', string.punctuation))
-                
                 totalWords += 1
 
-                # Ignore stopwords and take only meaningful words
-                if word not in []:
-                    firstSyllable = self.getPhonemes(word)[0]
-                    if firstSyllable in proximalPhonemes:
-                        numOfAllitWords += 1
-                        allitInLine.append(word)
+                firstSyllable = self.getPhonemes(word)[0]
+                if firstSyllable in proximalPhonemes:
+                    numOfAlliterations += 1
+                    allitInLine.append(word)
 
-                    proximalPhonemes[index] = firstSyllable
+                proximalPhonemes[index] = firstSyllable
+                index = (index + 1) if (index + 1) < proximity else 0
 
-                    index = (index + 1) if (index + 1) < proximity else 0
-
-            if numOfAllitWords > 0:
-                allitCount += numOfAllitWords + 1
+            if numOfAlliterations > 0:
+                totalAllitCount += numOfAlliterations + 1
                 
             if allitInLine:
                 allAlliterations.append(allitInLine.copy())
 
             allitInLine.clear()
 
-        # print("Alliterations:")
-        # print(allAlliterations)
-        # print(allitCount)
+        # TODO: Print alliterating words
 
-        return allitCount
+        return totalAllitCount
