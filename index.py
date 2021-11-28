@@ -2,6 +2,9 @@ import ply.lex as lex
 import spacy
 import syntaxOntology
 
+import nltk
+import string
+
 nlp = spacy.load("en_core_web_sm")
 validTokens = []        #stores the valid tokens/words
 lastWords = [] #store the last words in the sentence to determine the rhyme scheme
@@ -54,7 +57,17 @@ for lemma in validTokens:
 print("-------------------------------")
 print(lastWords)
 
-#syntaxOntology class object
+###################
+# Syntax Ontology #
+###################
+
 syntaxOntologyObj = syntaxOntology.syntaxOntology()
+
+# Get rhyming words
 print(syntaxOntologyObj.getRhymeScheme(lastWords))
 
+# Get alliterations
+sentences = data.split('\n')
+sentences = [sentence for sentence in sentences if sentence]
+    
+print(syntaxOntologyObj.getAlliterations(sentences))
