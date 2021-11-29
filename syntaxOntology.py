@@ -45,7 +45,7 @@ class syntaxOntology :
         else:
             return ["NONE"]
 
-    def getAlliterations(self, sentences) :
+    def getAlliterations(self,sentences) :
 
         # List of lists containing all alliterations in the poem
         allAlliterations = []
@@ -53,32 +53,36 @@ class syntaxOntology :
         # List containing all alliterations in a single line
         allitInLine =[]
 
-        # TODO: Find a way to dynamically determine the allowed proximity based on 
-        #       number of words per line
-        # Allowed number of gaps between alliterating words
-        proximity = 3
-        index = 0
-
         totalWords = 0
         totalAllitCount = 0
 
         for sentence in sentences:
+            #proximity - Allowed number of gaps between alliterating words
+            #depends on the no of words in each sentence
+            proximity = len(sentence)   #[0,len(sentence)-1]
+            pos = 0
+
             proximalPhonemes = [None] * proximity
 
             numOfAlliterations = 0
 
-            for word in sentence.split(sep=" "):
-                # Remove punctuations
-                word = word.translate(str.maketrans('', '', string.punctuation))
+            for word in sentence:
                 totalWords += 1
 
                 firstSyllable = self.getPhonemes(word)[0]
                 if firstSyllable in proximalPhonemes:
                     numOfAlliterations += 1
+
+                    i = proximalPhonemes.index(firstSyllable)
+                    prevAllitWord = sentence[i]
+
+                    if prevAllitWord not in allitInLine :
+                        allitInLine.append(prevAllitWord)
+
                     allitInLine.append(word)
 
-                proximalPhonemes[index] = firstSyllable
-                index = (index + 1) if (index + 1) < proximity else 0
+                proximalPhonemes[pos] = firstSyllable
+                pos = (pos + 1) if (pos + 1) < proximity else 0
 
             if numOfAlliterations > 0:
                 totalAllitCount += numOfAlliterations + 1
@@ -87,7 +91,5 @@ class syntaxOntology :
                 allAlliterations.append(allitInLine.copy())
 
             allitInLine.clear()
-
-        # TODO: Print alliterating words
-
-        return totalAllitCount
+        
+        return allAlliterations,totalAllitCount

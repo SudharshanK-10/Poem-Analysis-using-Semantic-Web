@@ -6,3 +6,9 @@ First set up a virtual environment and install the following modules :
 --> spacy `pip install spacy`
 
 --> pronouncing `pip install pronouncing`
+
+--> nltk `pip install nltk`
+
+--> stopwords `python -c "import nltk; nltk.download('stopwords')"`
+
+--> cmudict `python -c "import nltk; nltk.download('cmudict')"`
