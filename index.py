@@ -1,9 +1,7 @@
 import ply.lex as lex 
 import spacy
 import syntaxOntology
-
-import nltk
-import string
+import poetryOntology
 
 nlp = spacy.load("en_core_web_sm")
 validTokens = []        #stores the valid tokens/words
@@ -58,17 +56,16 @@ while True:
     tok = lexer.token()
     if not tok:
         break
-
+    
+print("-------------------------------------")
 for lemma in validTokens:
     print(lemma.lemma_ + " - " + spacy.explain(lemma.pos_))
-
-print("-------------------------------")
-print("Last words : " + str(lastWords))
 
 ###################
 # Syntax Ontology #
 ###################
-
+print("-------------------------------------")
+print("Last words : " + str(lastWords))
 syntaxOntologyObj = syntaxOntology.syntaxOntology()
 
 # Get rhyming words
@@ -78,3 +75,11 @@ print("Rhyme scheme : " + str(syntaxOntologyObj.getRhymeScheme(lastWords)) + "\n
 AlliterationWords,totalAllit = syntaxOntologyObj.getAlliterations(listOfSentences)
 print("Number of alliterating words: " + str(totalAllit))
 print("Alliterating words : " + str(AlliterationWords))
+
+###################
+# Poetry Ontology #
+###################
+print("-------------------------------------")
+poetryOntologyObj = poetryOntology.poetryOntology()
+emotion = poetryOntologyObj.getPoemEmotion(data)
+print(emotion)
