@@ -1,7 +1,7 @@
 import ply.lex as lex 
 import spacy
 import syntaxOntology
-import poetryOntology
+import metaphorOntology
 
 nlp = spacy.load("en_core_web_sm")
 validTokens = []        #stores the valid tokens/words
@@ -41,45 +41,66 @@ def t_error(t):
     #anyother characters
     t.lexer.skip(1)
 
-# Build the lexer
-lexer = lex.lex()
+def main() :
+    # Build the lexer
+    lexer = lex.lex()
 
-# input poem
-file = open("simplePoem.txt","r")
-data = file.read()
- 
-# Give the lexer some input
-lexer.input(data)
- 
-# Tokenize
-while True:
-    tok = lexer.token()
-    if not tok:
-        break
-    
-print("-------------------------------------")
-for lemma in validTokens:
-    print(lemma.lemma_ + " - " + spacy.explain(lemma.pos_))
+    # input poem
+    noOfPoems = int(input("\nNo of poems : "))
+    emotionConveyed = []
 
-###################
-# Syntax Ontology #
-###################
-print("-------------------------------------")
-print("Last words : " + str(lastWords))
-syntaxOntologyObj = syntaxOntology.syntaxOntology()
+    print("-------------------------------------")
 
-# Get rhyming words
-print("Rhyme scheme : " + str(syntaxOntologyObj.getRhymeScheme(lastWords)) + "\n")
+    # for each poem analyse the data
+    for i in range(1,noOfPoems+1) : 
 
-# Get alliterations
-AlliterationWords,totalAllit = syntaxOntologyObj.getAlliterations(listOfSentences)
-print("Number of alliterating words: " + str(totalAllit))
-print("Alliterating words : " + str(AlliterationWords))
+        #resetting global members
+        global validTokens,lastWords,previousToken,listOfSentences,singleSentence
+        validTokens = []
+        lastWords = []
+        previousToken = ""
+        listOfSentences = []
+        singleSentence = []
 
-###################
-# Poetry Ontology #
-###################
-print("-------------------------------------")
-poetryOntologyObj = poetryOntology.poetryOntology()
-emotion = poetryOntologyObj.getPoemEmotion(data)
-print(emotion)
+        print("\n########## POEM "+str(i)+" ############")
+
+        file = open("Poems/Poem"+str(i)+".txt","r")
+        data = file.read()
+        
+        # Give the lexer some input
+        lexer.input(data)
+        
+        # Tokenize
+        while True:
+            tok = lexer.token()
+            if not tok:
+                break
+            
+        print("-------------------------------------")
+        for lemma in validTokens:
+            print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
+
+        ###################
+        # Syntax Ontology #
+        ###################
+        print("-------------------------------------")
+        print("Last words : " + str(lastWords))
+        syntaxOntologyObj = syntaxOntology.syntaxOntology()
+
+        # Get rhyming words
+        print("Rhyme scheme : " + str(syntaxOntologyObj.getRhymeScheme(lastWords)) + "\n")
+
+        # Get alliterations
+        AlliterationWords,totalAllit = syntaxOntologyObj.getAlliterations(listOfSentences)
+        print("Number of alliterating words: " + str(totalAllit))
+        print("Alliterating words : " + str(AlliterationWords))
+
+        ###################
+        # Metaphor Ontology #
+        ###################
+        print("-------------------------------------")
+        metaphorOntologyObj = metaphorOntology.metaphorOntology()
+        emotion = metaphorOntologyObj.getPoemEmotion(data)
+        print(emotion)
+
+main()

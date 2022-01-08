@@ -29,9 +29,11 @@ class syntaxOntology :
             for j in range(i + 1, len(lastWords)):
                 if (lastWords[j] in rhymingWords or lastWords[j] == lastWords[i]):
                     pattern[j] = curMatch
-        
-            curMatch = chr(ord(curMatch) + 1)
 
+            if(curMatch != 'z'):        
+                curMatch = chr(ord(curMatch) + 1)
+            else :
+                curMatch = 'A'
         pattern = "".join(pattern)
         return pattern
 
