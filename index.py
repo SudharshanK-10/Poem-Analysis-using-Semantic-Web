@@ -4,6 +4,7 @@ import syntaxOntology
 import metaphorOntology
 
 nlp = spacy.load("en_core_web_sm")
+
 validTokens = []        #stores the valid tokens/words
 lastWords = [] #store the last words in the sentence to determine the rhyme scheme
 previousToken = "" #stores the previous token
@@ -43,8 +44,8 @@ def t_error(t):
 
 def main() :
     # Build the lexer
-    lexer = lex.lex()
-
+    lexer = lex.lex()  
+    
     # input poem
     noOfPoems = int(input("\nNo of poems : "))
     emotionConveyed = []
