@@ -1,5 +1,7 @@
-import ply.lex as lex 
+import ply.lex as lex
+from pronouncing import rhymes 
 import spacy
+from categorizationModule import categorizationModule
 import syntaxOntology
 import metaphorOntology
 
@@ -89,19 +91,45 @@ def main() :
         syntaxOntologyObj = syntaxOntology.syntaxOntology()
 
         # Get rhyming words
-        print("Rhyme scheme : " + str(syntaxOntologyObj.getRhymeScheme(lastWords)) + "\n")
+        rhymeScheme = str(syntaxOntologyObj.getRhymeScheme(lastWords));
+        print("Rhyme scheme : " + rhymeScheme + "\n")
 
         # Get alliterations
         AlliterationWords,totalAllit = syntaxOntologyObj.getAlliterations(listOfSentences)
         print("Number of alliterating words: " + str(totalAllit))
         print("Alliterating words : " + str(AlliterationWords))
 
-        ###################
+        #####################
         # Metaphor Ontology #
-        ###################
+        #####################
         print("-------------------------------------")
         metaphorOntologyObj = metaphorOntology.metaphorOntology()
         emotion = metaphorOntologyObj.getPoemEmotion(data)
         print(emotion)
+        
+        # Poetry Ontology
+
+        ##################
+        # Categorization #
+        ##################
+        categorizationObj = categorizationModule()
+        categorizationObj.calculateRhymeScore(rhymeScheme, len(listOfSentences))
+        categorizationObj.calculateAllitScore(totalAllit, AlliterationWords, listOfSentences)
+        majorEmotion, minorEmotions = categorizationObj.computeEmotion(emotion)
+
+        finalScore = categorizationObj.calculateFinalScore()
+        print("Major Emotion: " + majorEmotion)
+        print("Minor Emotions: " + minorEmotions)
+        print("Creativity Score: " + str(finalScore))
+
+        outFile = open("Result/Poem"+str(i)+".txt", "w")
+        outFile.write("Rhyme Scheme: " + rhymeScheme + "\n")
+        outFile.write("Number of Alliterations: " + str(totalAllit) + "\n")
+        outFile.write("Major Emotion: " + majorEmotion + "\n")
+        outFile.write("Minor Emotions: " + minorEmotions + "\n")
+        outFile.write("----------------------\n")
+        outFile.write("Creativity Score: " + str(finalScore) + "\n")
+        outFile.write("----------------------\n")
+
 
 main()

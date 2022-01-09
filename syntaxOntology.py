@@ -46,6 +46,13 @@ class syntaxOntology :
         # Handling words without a dictionary entry
         else:
             return ["NONE"]
+    
+    def getNumberOfSyllables(self, word):
+        word = word.lower()
+        if word in self.phonemeDict:
+            return len(self.phonemeDict[word])
+        else:
+            return 0
 
     def getAlliterations(self,sentences) :
 
