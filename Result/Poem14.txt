@@ -1,5 +1,6 @@
 Rhyme Scheme: abcdefghibjklmnopqrsntuv
 Number of Alliterations: 53
+Genre: Artistic Free Verse 
 Major Emotion: Fear
 Minor Emotions: Surprise, Sad
 ----------------------

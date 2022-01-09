@@ -1,7 +1,8 @@
-Rhyme Scheme: aabbcdeeaaaaf
-Number of Alliterations: 27
+Rhyme Scheme: aabbcdeeaaaafg
+Number of Alliterations: 29
+Genre: Shakespearean Sonnet 
 Major Emotion: Sad
 Minor Emotions: Happy, Surprise
 ----------------------
-Creativity Score: 5.57
+Creativity Score: 5.34
 ----------------------

@@ -1,7 +1,8 @@
-Rhyme Scheme: abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKB
-Number of Alliterations: 79
+Rhyme Scheme: abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKBd
+Number of Alliterations: 83
+Genre: Narrative 
 Major Emotion: Fear
 Minor Emotions: Sad, Surprise
 ----------------------
-Creativity Score: 3.29
+Creativity Score: 3.38
 ----------------------

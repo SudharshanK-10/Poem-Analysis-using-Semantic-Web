@@ -1,6 +1,7 @@
 import ply.lex as lex
 from pronouncing import rhymes 
 import spacy
+from PoetryOntology import PoetryOntology
 from categorizationModule import categorizationModule
 import syntaxOntology
 import metaphorOntology
@@ -49,7 +50,8 @@ def main() :
     lexer = lex.lex()  
     
     # input poem
-    noOfPoems = int(input("\nNo of poems : "))
+    # noOfPoems = int(input("\nNo of poems : "))
+    noOfPoems = 17
     emotionConveyed = []
 
     print("-------------------------------------")
@@ -80,8 +82,9 @@ def main() :
                 break
             
         print("-------------------------------------")
-        for lemma in validTokens:
-            print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
+        # for lemma in validTokens:
+        #     print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
+
 
         ###################
         # Syntax Ontology #
@@ -99,6 +102,7 @@ def main() :
         print("Number of alliterating words: " + str(totalAllit))
         print("Alliterating words : " + str(AlliterationWords))
 
+
         #####################
         # Metaphor Ontology #
         #####################
@@ -106,8 +110,7 @@ def main() :
         metaphorOntologyObj = metaphorOntology.metaphorOntology()
         emotion = metaphorOntologyObj.getPoemEmotion(data)
         print(emotion)
-        
-        # Poetry Ontology
+    
 
         ##################
         # Categorization #
@@ -117,6 +120,18 @@ def main() :
         categorizationObj.calculateAllitScore(totalAllit, AlliterationWords, listOfSentences)
         majorEmotion, minorEmotions = categorizationObj.computeEmotion(emotion)
 
+
+        ###################
+        # Poetry Ontology #
+        ###################
+        poetryOntologyObj = PoetryOntology()
+        genre = poetryOntologyObj.getGenre(listOfSentences, rhymeScheme, totalAllit, majorEmotion)
+        print(genre)
+
+
+        ################
+        # Final Output #
+        ################
         finalScore = categorizationObj.calculateFinalScore()
         print("Major Emotion: " + majorEmotion)
         print("Minor Emotions: " + minorEmotions)
@@ -125,11 +140,11 @@ def main() :
         outFile = open("Result/Poem"+str(i)+".txt", "w")
         outFile.write("Rhyme Scheme: " + rhymeScheme + "\n")
         outFile.write("Number of Alliterations: " + str(totalAllit) + "\n")
+        outFile.write("Genre: " + genre + " \n")
         outFile.write("Major Emotion: " + majorEmotion + "\n")
         outFile.write("Minor Emotions: " + minorEmotions + "\n")
         outFile.write("----------------------\n")
         outFile.write("Creativity Score: " + str(finalScore) + "\n")
         outFile.write("----------------------\n")
-
 
 main()

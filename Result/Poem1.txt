@@ -1,7 +1,8 @@
-Rhyme Scheme: abcdefghijklmnopqrstuuvwxyzA
-Number of Alliterations: 58
+Rhyme Scheme: abacdedefgfghh
+Number of Alliterations: 31
+Genre: Shakespearean Sonnet 
 Major Emotion: Fear
-Minor Emotions: Sad, Angry
+Minor Emotions: Happy, Sad
 ----------------------
-Creativity Score: 2.82
+Creativity Score: 4.5
 ----------------------

@@ -1,7 +1,8 @@
-Rhyme Scheme: aabccdeeeeffghigeeee
-Number of Alliterations: 38
+Rhyme Scheme: abcd
+Number of Alliterations: 6
+Genre: Limerick 
 Major Emotion: Surprise
-Minor Emotions: Sad, Happy
+Minor Emotions: Sad, Fear
 ----------------------
-Creativity Score: 5.85
+Creativity Score: 2.29
 ----------------------

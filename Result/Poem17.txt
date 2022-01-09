@@ -1,8 +1,8 @@
-Rhyme Scheme: abcdefghijk
-Number of Alliterations: 18
+Rhyme Scheme: aabccdeeeeffghigeeee
+Number of Alliterations: 38
 Genre: Artistic Free Verse 
 Major Emotion: Surprise
 Minor Emotions: Sad, Happy
 ----------------------
-Creativity Score: 2.66
+Creativity Score: 5.85
 ----------------------

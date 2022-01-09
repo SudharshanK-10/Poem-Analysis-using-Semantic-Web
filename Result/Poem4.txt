@@ -1,7 +1,8 @@
-Rhyme Scheme: abacddebecddfbfcddcbccd
-Number of Alliterations: 78
+Rhyme Scheme: abacddebecddfbfcddcbccdd
+Number of Alliterations: 81
+Genre: Artistic Free Verse 
 Major Emotion: Surprise
 Minor Emotions: Happy, Angry
 ----------------------
-Creativity Score: 7.02
+Creativity Score: 7.09
 ----------------------

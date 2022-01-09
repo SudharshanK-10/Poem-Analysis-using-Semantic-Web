@@ -1,5 +1,6 @@
 Rhyme Scheme: aabccdeffghijkklmnopqrstuuvusw
 Number of Alliterations: 6
+Genre: Narrative 
 Major Emotion: Sad
 Minor Emotions: Happy, Surprise
 ----------------------

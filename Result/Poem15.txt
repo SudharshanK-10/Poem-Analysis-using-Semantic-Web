@@ -1,5 +1,6 @@
 Rhyme Scheme: abcbdefeghghii
 Number of Alliterations: 43
+Genre: Shakespearean Sonnet 
 Major Emotion: Sad
 Minor Emotions: Fear, Surprise
 ----------------------

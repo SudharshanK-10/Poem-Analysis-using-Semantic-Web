@@ -1,5 +1,6 @@
 Rhyme Scheme: abacdedfghghff
 Number of Alliterations: 26
+Genre: Shakespearean Sonnet 
 Major Emotion: Surprise
 Minor Emotions: Sad, Happy
 ----------------------
