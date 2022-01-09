@@ -82,8 +82,8 @@ def main() :
                 break
             
         print("-------------------------------------")
-        # for lemma in validTokens:
-        #     print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
+        for lemma in validTokens:
+            print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
 
 
         ###################
