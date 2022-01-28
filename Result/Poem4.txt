@@ -1,8 +1,239 @@
-Rhyme Scheme: abacddebecddfbfcddcbccdd
-Number of Alliterations: 81
-Genre: Artistic Free Verse 
-Major Emotion: Surprise
-Minor Emotions: Happy, Angry
-----------------------
-Creativity Score: 7.09
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ------------------------
+Rhyme Scheme             abacddebecddfbfcddcbccdd
+Number of Alliterations  81
+Genre                    Artistic Free Verse
+Major Emotion            Surprise
+Minor Emotion            Happy, Angry
+-----------------------  ------------------------
+CREATIVITY SCORE         7.09
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma      POS Tag    Explanation
+---------  ---------  -------------------------
+it         PRON       pronoun
+be         AUX        auxiliary
+a          PRON       pronoun
+lover      PROPN      proper noun
+and        CCONJ      coordinating conjunction
+his        PRON       pronoun
+lass       NOUN       noun
+with       ADP        adposition
+a          PRON       pronoun
+hey        INTJ       interjection
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+ho         PROPN      proper noun
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+hey        INTJ       interjection
+nonino     NOUN       noun
+that       PRON       pronoun
+o          INTJ       interjection
+er         INTJ       interjection
+the        PRON       pronoun
+green      ADJ        adjective
+corn       NOUN       noun
+field      NOUN       noun
+do         VERB       verb
+pass       VERB       verb
+in         ADP        adposition
+the        PRON       pronoun
+spring     NOUN       noun
+time       NOUN       noun
+the        PRON       pronoun
+only       ADV        adverb
+pretty     ADJ        adjective
+ring       NOUN       noun
+time       NOUN       noun
+when       SCONJ      subordinating conjunction
+bird       NOUN       noun
+do         VERB       verb
+sing       VERB       verb
+hey        INTJ       interjection
+de         VERB       verb
+a          PRON       pronoun
+de         VERB       verb
+de         VERB       verb
+sweet      ADJ        adjective
+lover      NOUN       noun
+love       NOUN       noun
+the        PRON       pronoun
+spring     NOUN       noun
+between    ADP        adposition
+the        PRON       pronoun
+acre       NOUN       noun
+of         ADP        adposition
+the        PRON       pronoun
+rye        NOUN       noun
+with       ADP        adposition
+a          PRON       pronoun
+hey        INTJ       interjection
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+ho         PROPN      proper noun
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+hey        INTJ       interjection
+nonino     NOUN       noun
+these      PRON       pronoun
+pretty     ADJ        adjective
+country    NOUN       noun
+folk       NOUN       noun
+would      AUX        auxiliary
+lie        NOUN       noun
+in         ADP        adposition
+the        PRON       pronoun
+spring     NOUN       noun
+time       NOUN       noun
+the        PRON       pronoun
+only       ADV        adverb
+pretty     ADJ        adjective
+ring       NOUN       noun
+time       NOUN       noun
+when       SCONJ      subordinating conjunction
+bird       NOUN       noun
+do         VERB       verb
+sing       VERB       verb
+hey        INTJ       interjection
+de         VERB       verb
+a          PRON       pronoun
+de         VERB       verb
+de         VERB       verb
+sweet      ADJ        adjective
+lover      NOUN       noun
+love       NOUN       noun
+the        PRON       pronoun
+spring     NOUN       noun
+this       PRON       pronoun
+carol      NOUN       noun
+they       PRON       pronoun
+begin      VERB       verb
+that       PRON       pronoun
+hour       NOUN       noun
+with       ADP        adposition
+a          PRON       pronoun
+hey        INTJ       interjection
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+ho         PROPN      proper noun
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+hey        INTJ       interjection
+nonino     NOUN       noun
+how        SCONJ      subordinating conjunction
+that       PRON       pronoun
+life       NOUN       noun
+be         AUX        auxiliary
+but        CCONJ      coordinating conjunction
+a          PRON       pronoun
+flower     NOUN       noun
+in         ADP        adposition
+the        PRON       pronoun
+spring     NOUN       noun
+time       NOUN       noun
+the        PRON       pronoun
+only       ADV        adverb
+pretty     ADJ        adjective
+ring       NOUN       noun
+time       NOUN       noun
+when       SCONJ      subordinating conjunction
+bird       NOUN       noun
+do         VERB       verb
+sing       VERB       verb
+hey        INTJ       interjection
+de         VERB       verb
+a          PRON       pronoun
+de         VERB       verb
+de         VERB       verb
+sweet      ADJ        adjective
+lover      NOUN       noun
+love       NOUN       noun
+the        PRON       pronoun
+spring     NOUN       noun
+and        CCONJ      coordinating conjunction
+therefore  ADV        adverb
+take       VERB       verb
+the        PRON       pronoun
+present    ADJ        adjective
+time       NOUN       noun
+with       ADP        adposition
+a          PRON       pronoun
+hey        INTJ       interjection
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+ho         PROPN      proper noun
+and        CCONJ      coordinating conjunction
+a          PRON       pronoun
+hey        INTJ       interjection
+nonino     NOUN       noun
+for        ADP        adposition
+love       NOUN       noun
+be         AUX        auxiliary
+crown      PROPN      proper noun
+d          X          other
+with       ADP        adposition
+the        PRON       pronoun
+prime      NOUN       noun
+in         ADP        adposition
+the        PRON       pronoun
+spring     NOUN       noun
+time       NOUN       noun
+the        PRON       pronoun
+only       ADV        adverb
+pretty     ADJ        adjective
+ring       NOUN       noun
+time       NOUN       noun
+when       SCONJ      subordinating conjunction
+bird       NOUN       noun
+do         VERB       verb
+sing       VERB       verb
+hey        INTJ       interjection
+de         VERB       verb
+a          PRON       pronoun
+de         VERB       verb
+de         VERB       verb
+sweet      ADJ        adjective
+lover      NOUN       noun
+love       NOUN       noun
+the        PRON       pronoun
+spring     NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['lass', 'nonino', 'pass', 'time', 'ding', 'spring', 'rye', 'nonino', 'lie', 'time', 'ding', 'spring', 'hour', 'nonino', 'flower', 'time', 'ding', 'spring', 'time', 'nonino', 'prime', 'time', 'ding', 'spring']
+
+Rhyme scheme - abacddebecddfbfcddcbccdd
+
+Alliterating words - [['a', 'and', 'lover', 'lass'], ['a', 'and', 'a', 'hey', 'ho', 'and', 'a', 'hey'], ['That', 'the'], ['the', 'the', 'time', 'time'], ['do', 'ding', 'ding', 'ding'], ['lovers', 'love', 'Sweet', 'spring'], ['the', 'the'], ['a', 'and', 'a', 'hey', 'ho', 'and', 'a', 'hey'], ['the', 'the', 'time', 'time'], ['do', 'ding', 'ding', 'ding'], ['lovers', 'love', 'Sweet', 'spring'], ['This', 'they', 'that'], ['a', 'and', 'a', 'hey', 'ho', 'and', 'a', 'hey'], ['the', 'the', 'time', 'time'], ['do', 'ding', 'ding', 'ding'], ['lovers', 'love', 'Sweet', 'spring'], ['therefore', 'the', 'take', 'time'], ['a', 'and', 'a', 'hey', 'ho', 'and', 'a', 'hey'], ['the', 'the', 'time', 'time'], ['do', 'ding', 'ding', 'ding'], ['lovers', 'love', 'Sweet', 'spring']]
+
+Number of alliterating words - 81
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.27, 'Angry': 0.11, 'Surprise': 0.54, 'Sad': 0.0, 'Fear': 0.08}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Happy, Angry
+Creativity Score - 7.09

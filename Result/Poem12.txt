@@ -1,8 +1,266 @@
-Rhyme Scheme: abcdefghijklmnopqrstuovwxyoz
-Number of Alliterations: 54
-Genre: Narrative 
-Major Emotion: Fear
-Minor Emotions: Angry, Surprise
-----------------------
-Creativity Score: 3.28
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ----------------------------
+Rhyme Scheme             abcdefghijklmnopqrstuovwxyoz
+Number of Alliterations  54
+Genre                    Narrative
+Major Emotion            Fear
+Minor Emotion            Angry, Surprise
+-----------------------  ----------------------------
+CREATIVITY SCORE         3.28
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma         POS Tag    Explanation
+------------  ---------  -------------------------
+announce      VERB       verb
+by            ADP        adposition
+all           PRON       pronoun
+the           PRON       pronoun
+trumpet       NOUN       noun
+of            ADP        adposition
+the           PRON       pronoun
+sky           NOUN       noun
+arrive        VERB       verb
+the           PRON       pronoun
+snow          NOUN       noun
+and           CCONJ      coordinating conjunction
+drive         VERB       verb
+o             INTJ       interjection
+er            INTJ       interjection
+the           PRON       pronoun
+field         NOUN       noun
+seem          VERB       verb
+nowhere       ADV        adverb
+to            ADP        adposition
+alight        NOUN       noun
+the           PRON       pronoun
+white         VERB       verb
+air           NOUN       noun
+hide          NOUN       noun
+hill          NOUN       noun
+and           CCONJ      coordinating conjunction
+wood          NOUN       noun
+the           PRON       pronoun
+river         NOUN       noun
+and           CCONJ      coordinating conjunction
+the           PRON       pronoun
+heaven        PROPN      proper noun
+and           CCONJ      coordinating conjunction
+veil          VERB       verb
+the           PRON       pronoun
+farm          NOUN       noun
+house         PROPN      proper noun
+at            ADP        adposition
+the           PRON       pronoun
+garden        VERB       verb
+s             VERB       verb
+end           VERB       verb
+the           PRON       pronoun
+sle           VERB       verb
+and           CCONJ      coordinating conjunction
+traveller     NOUN       noun
+stop          VERB       verb
+the           PRON       pronoun
+courier       NOUN       noun
+s             VERB       verb
+foot          NOUN       noun
+delay         VERB       verb
+all           PRON       pronoun
+friend        NOUN       noun
+shut          VERB       verb
+out           ADV        adverb
+the           PRON       pronoun
+housemate     VERB       verb
+sit           VERB       verb
+around        ADP        adposition
+the           PRON       pronoun
+radiant       ADJ        adjective
+fireplace     NOUN       noun
+enclose       VERB       verb
+in            ADP        adposition
+a             PRON       pronoun
+tumultuous    ADJ        adjective
+privacy       NOUN       noun
+of            ADP        adposition
+storm         NOUN       noun
+come          VERB       verb
+see           VERB       verb
+the           PRON       pronoun
+north         NOUN       noun
+wind          NOUN       noun
+s             VERB       verb
+masonry       NOUN       noun
+out           ADV        adverb
+of            ADP        adposition
+an            PRON       pronoun
+unseen        ADJ        adjective
+quarry        PROPN      proper noun
+evermore      ADV        adverb
+furnish       VERB       verb
+with          ADP        adposition
+tile          NOUN       noun
+the           PRON       pronoun
+fierce        ADJ        adjective
+artificer     NOUN       noun
+curve         NOUN       noun
+his           PRON       pronoun
+white         ADJ        adjective
+bastion       NOUN       noun
+with          ADP        adposition
+project       VERB       verb
+roof          NOUN       noun
+round         ADJ        adjective
+every         PRON       pronoun
+windward      PROPN      proper noun
+stake         NOUN       noun
+or            CCONJ      coordinating conjunction
+tree          NOUN       noun
+or            CCONJ      coordinating conjunction
+door          NOUN       noun
+speed         VERB       verb
+the           PRON       pronoun
+myriad        VERB       verb
+hand          VERB       verb
+his           PRON       pronoun
+wild          ADJ        adjective
+work          NOUN       noun
+so            ADV        adverb
+fanciful      ADJ        adjective
+so            ADV        adverb
+savage        VERB       verb
+nought        PROPN      proper noun
+care          VERB       verb
+he            PRON       pronoun
+for           ADP        adposition
+number        NOUN       noun
+or            CCONJ      coordinating conjunction
+proportion    NOUN       noun
+mockingly     ADV        adverb
+on            ADP        adposition
+coop          NOUN       noun
+or            CCONJ      coordinating conjunction
+kennel        PROPN      proper noun
+he            PRON       pronoun
+hang          VERB       verb
+parian        ADJ        adjective
+wreath        NOUN       noun
+a             PRON       pronoun
+swan          PROPN      proper noun
+like          INTJ       interjection
+form          NOUN       noun
+invest        NOUN       noun
+the           PRON       pronoun
+hide          VERB       verb
+thorn         VERB       verb
+fill          NOUN       noun
+up            ADV        adverb
+the           PRON       pronoun
+farmer        NOUN       noun
+s             VERB       verb
+lane          NOUN       noun
+from          ADP        adposition
+wall          PROPN      proper noun
+to            ADP        adposition
+wall          PROPN      proper noun
+maugre        X          other
+the           PRON       pronoun
+farmer        NOUN       noun
+s             VERB       verb
+sigh          VERB       verb
+and           CCONJ      coordinating conjunction
+at            ADP        adposition
+the           PRON       pronoun
+gate          NOUN       noun
+a             PRON       pronoun
+taper         VERB       verb
+turret        X          other
+overtop       NOUN       noun
+the           PRON       pronoun
+work          NOUN       noun
+and           CCONJ      coordinating conjunction
+when          SCONJ      subordinating conjunction
+his           PRON       pronoun
+hour          NOUN       noun
+be            AUX        auxiliary
+number        VERB       verb
+and           CCONJ      coordinating conjunction
+the           PRON       pronoun
+world         NOUN       noun
+be            AUX        auxiliary
+all           PRON       pronoun
+his           PRON       pronoun
+own           ADJ        adjective
+retire        VERB       verb
+as            ADP        adposition
+he            PRON       pronoun
+be            AUX        auxiliary
+not           PART       particle
+leave         NOUN       noun
+when          SCONJ      subordinating conjunction
+the           PRON       pronoun
+sun           NOUN       noun
+appear        VERB       verb
+astonish      VERB       verb
+art           NOUN       noun
+to            ADP        adposition
+mimic         PROPN      proper noun
+in            ADP        adposition
+slow          VERB       verb
+structure     NOUN       noun
+stone         NOUN       noun
+by            ADP        adposition
+stone         NOUN       noun
+build         VERB       verb
+in            ADP        adposition
+an            PRON       pronoun
+age           NOUN       noun
+the           PRON       pronoun
+mad           ADJ        adjective
+wind          NOUN       noun
+s             VERB       verb
+night         NOUN       noun
+work          NOUN       noun
+the           PRON       pronoun
+frolic        PROPN      proper noun
+architecture  NOUN       noun
+of            ADP        adposition
+the           PRON       pronoun
+snow          NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['sky', 'fields', 'air', 'heaven', 'end', 'feet', 'sit', 'enclosed', 'storm', 'masonry', 'evermore', 'artificer', 'roof', 'door', 'work', 'he', 'Mockingly', 'wreaths', 'thorn', 'wall', 'gate', 'work', 'world', 'not', 'Art', 'stone', 'work', 'snow']
+
+Rhyme scheme - abcdefghijklmnopqrstuovwxyoz
+
+Alliterating words - [['the', 'the'], ['Arrives', 'er', 'the', 'the'], ['Hides', 'hills', 'and', 'and', 'the', 'the', 'heaven'], ['the', 'the', 's', 'end'], ['sled', 'stopped', 'The', 'the'], ['Furnished', 'fierce'], ['white', 'with'], ['or', 'or'], ['handed', 'his', 'wild', 'work'], ['So', 'so', 'savage'], ['coop', 'kennel', 'he', 'hangs'], ['Fills', 'farmer', 'from', 'wall', 'wall'], ['the', 'the'], ['tapering', 'turret'], ['And', 'and', 'when', 'world'], ['his', 'he'], ['appears', 'astonished'], ['slow', 'structures', 'stone', 'stone'], ['wind', 'work'], ['The', 'the']]
+
+Number of alliterating words - 54
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Narrative
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.08, 'Angry': 0.22, 'Surprise': 0.14, 'Sad': 0.14, 'Fear': 0.43}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Angry, Surprise
+Creativity Score - 3.28

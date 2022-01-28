@@ -1,8 +1,174 @@
-Rhyme Scheme: abacdedefgfghh
-Number of Alliterations: 31
-Genre: Shakespearean Sonnet 
-Major Emotion: Fear
-Minor Emotions: Happy, Sad
-----------------------
-Creativity Score: 4.5
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             abacdedefgfghh
+Number of Alliterations  31
+Genre                    Shakespearean Sonnet
+Major Emotion            Fear
+Minor Emotion            Happy, Sad
+-----------------------  --------------------
+CREATIVITY SCORE         4.5
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma       POS Tag    Explanation
+----------  ---------  -------------------------
+when        SCONJ      subordinating conjunction
+forty       NUM        numeral
+winter      NOUN       noun
+shall       AUX        auxiliary
+besiege     VERB       verb
+thy         PRON       pronoun
+brow        PROPN      proper noun
+and         CCONJ      coordinating conjunction
+dig         PROPN      proper noun
+deep        ADJ        adjective
+trench      NOUN       noun
+in          ADP        adposition
+thy         PRON       pronoun
+beauty      NOUN       noun
+s           VERB       verb
+field       NOUN       noun
+Thy         NOUN       noun
+youth       NOUN       noun
+s           VERB       verb
+proud       ADJ        adjective
+livery      NOUN       noun
+so          ADV        adverb
+gaze        VERB       verb
+on          ADP        adposition
+now         ADV        adverb
+will        AUX        auxiliary
+be          AUX        auxiliary
+a           PRON       pronoun
+tatter      NOUN       noun
+d           X          other
+weed        NOUN       noun
+of          ADP        adposition
+small       ADJ        adjective
+worth       ADJ        adjective
+hold        VERB       verb
+then        ADV        adverb
+be          AUX        auxiliary
+ask         VERB       verb
+d           X          other
+where       SCONJ      subordinating conjunction
+all         PRON       pronoun
+thy         PRON       pronoun
+beauty      NOUN       noun
+lie         VERB       verb
+where       SCONJ      subordinating conjunction
+all         PRON       pronoun
+the         PRON       pronoun
+treasure    VERB       verb
+of          ADP        adposition
+thy         PRON       pronoun
+lusty       PROPN      proper noun
+day         NOUN       noun
+to          ADP        adposition
+say         VERB       verb
+within      ADP        adposition
+thine       NOUN       noun
+own         ADJ        adjective
+deep        ADJ        adjective
+sink        VERB       verb
+eye         NOUN       noun
+be          AUX        auxiliary
+an          PRON       pronoun
+all         PRON       pronoun
+eat         VERB       verb
+shame       NOUN       noun
+and         CCONJ      coordinating conjunction
+thriftless  NOUN       noun
+praise      NOUN       noun
+how         SCONJ      subordinating conjunction
+much        ADJ        adjective
+more        ADJ        adjective
+praise      NOUN       noun
+deserve     VERB       verb
+thy         PRON       pronoun
+beauty      NOUN       noun
+s           VERB       verb
+use         NOUN       noun
+if          SCONJ      subordinating conjunction
+thou        NOUN       noun
+couldst     ADV        adverb
+answer      VERB       verb
+this        PRON       pronoun
+fair        ADJ        adjective
+child       NOUN       noun
+of          ADP        adposition
+mine        NOUN       noun
+shall       AUX        auxiliary
+sum         NOUN       noun
+my          PRON       pronoun
+count       VERB       verb
+and         CCONJ      coordinating conjunction
+make        VERB       verb
+my          PRON       pronoun
+old         ADJ        adjective
+excuse      NOUN       noun
+prove       VERB       verb
+his         PRON       pronoun
+beauty      NOUN       noun
+by          ADP        adposition
+succession  NOUN       noun
+thine       NOUN       noun
+this        PRON       pronoun
+be          AUX        auxiliary
+to          ADP        adposition
+be          AUX        auxiliary
+new         ADJ        adjective
+make        VERB       verb
+when        SCONJ      subordinating conjunction
+thou        NOUN       noun
+art         NOUN       noun
+old         ADJ        adjective
+and         CCONJ      coordinating conjunction
+see         VERB       verb
+thy         PRON       pronoun
+blood       NOUN       noun
+warm        ADJ        adjective
+when        SCONJ      subordinating conjunction
+thou        NOUN       noun
+feel        VERB       verb
+st          PROPN      proper noun
+it          PRON       pronoun
+cold        ADJ        adjective
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['brow', 'field', 'now', 'held', 'lies', 'days', 'eyes', 'praise', 'use', 'mine', 'excuse', 'thine', 'old', 'cold']
+
+Rhyme scheme - abacdedefgfghh
+
+Alliterating words - [['When', 'winters', 'besiege', 'brow'], ['dig', 'deep'], ['Will', 'weed', 'worth'], ['Then', 'thy', 'being', 'beauty'], ['the', 'thy'], ['say', 'sunken'], ['much', 'more'], ['thou', 'This'], ['my', 'make', 'my'], ['beauty', 'by'], ['were', 'when', 'This', 'thou'], ['warm', 'when', 'thy', 'thou', 'see', 'st']]
+
+Number of alliterating words - 31
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Shakespearean Sonnet
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.29, 'Angry': 0.0, 'Surprise': 0.14, 'Sad': 0.24, 'Fear': 0.33}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Happy, Sad
+Creativity Score - 4.5

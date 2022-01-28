@@ -1,8 +1,175 @@
-Rhyme Scheme: abacdedfghghff
-Number of Alliterations: 26
-Genre: Shakespearean Sonnet 
-Major Emotion: Surprise
-Minor Emotions: Sad, Happy
-----------------------
-Creativity Score: 3.81
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             abacdedfghghff
+Number of Alliterations  26
+Genre                    Shakespearean Sonnet
+Major Emotion            Surprise
+Minor Emotion            Sad, Happy
+-----------------------  --------------------
+CREATIVITY SCORE         3.81
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma      POS Tag    Explanation
+---------  ---------  -------------------------
+when       SCONJ      subordinating conjunction
+my         PRON       pronoun
+love       NOUN       noun
+swear      VERB       verb
+that       PRON       pronoun
+she        PRON       pronoun
+be         AUX        auxiliary
+make       VERB       verb
+of         ADP        adposition
+truth      NOUN       noun
+I          PRON       pronoun
+do         VERB       verb
+believe    VERB       verb
+she        PRON       pronoun
+though     ADV        adverb
+I          PRON       pronoun
+know       VERB       verb
+she        PRON       pronoun
+lie        VERB       verb
+that       PRON       pronoun
+she        PRON       pronoun
+might      AUX        auxiliary
+think      VERB       verb
+I          PRON       pronoun
+some       PRON       pronoun
+untutor    NOUN       noun
+d          X          other
+youth      NOUN       noun
+unlearned  ADJ        adjective
+in         ADP        adposition
+the        PRON       pronoun
+world      NOUN       noun
+s          VERB       verb
+false      ADJ        adjective
+subtletie  VERB       verb
+thus       ADV        adverb
+vainly     ADV        adverb
+think      VERB       verb
+that       PRON       pronoun
+she        PRON       pronoun
+think      VERB       verb
+I          PRON       pronoun
+young      ADJ        adjective
+although   SCONJ      subordinating conjunction
+she        PRON       pronoun
+know       VERB       verb
+my         PRON       pronoun
+day        NOUN       noun
+be         AUX        auxiliary
+past       ADP        adposition
+the        PRON       pronoun
+good       ADJ        adjective
+simply     ADV        adverb
+I          PRON       pronoun
+credit     NOUN       noun
+she        PRON       pronoun
+false      ADJ        adjective
+speak      VERB       verb
+tongue     NOUN       noun
+on         ADP        adposition
+both       PRON       pronoun
+side       NOUN       noun
+thus       ADV        adverb
+be         AUX        auxiliary
+simple     ADJ        adjective
+truth      NOUN       noun
+suppress   NOUN       noun
+d          X          other
+but        CCONJ      coordinating conjunction
+wherefore  ADJ        adjective
+say        VERB       verb
+she        PRON       pronoun
+not        PART       particle
+she        PRON       pronoun
+be         AUX        auxiliary
+unjust     ADJ        adjective
+and        CCONJ      coordinating conjunction
+wherefore  ADJ        adjective
+say        VERB       verb
+not        PART       particle
+I          PRON       pronoun
+that       PRON       pronoun
+I          PRON       pronoun
+be         AUX        auxiliary
+old        ADJ        adjective
+o          INTJ       interjection
+love       NOUN       noun
+s          VERB       verb
+good       ADJ        adjective
+habit      NOUN       noun
+be         AUX        auxiliary
+in         ADP        adposition
+seem       VERB       verb
+trust      NOUN       noun
+and        CCONJ      coordinating conjunction
+age        NOUN       noun
+in         ADP        adposition
+love       NOUN       noun
+love       VERB       verb
+not        PART       particle
+to         ADP        adposition
+have       VERB       verb
+year       NOUN       noun
+tell       VERB       verb
+therefore  ADV        adverb
+I          PRON       pronoun
+lie        NOUN       noun
+with       ADP        adposition
+she        PRON       pronoun
+and        CCONJ      coordinating conjunction
+she        PRON       pronoun
+with       ADP        adposition
+I          PRON       pronoun
+and        CCONJ      coordinating conjunction
+in         ADP        adposition
+our        PRON       pronoun
+fault      NOUN       noun
+by         ADP        adposition
+lie        VERB       verb
+we         PRON       pronoun
+flatter    NOUN       noun
+d          X          other
+be         AUX        auxiliary
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['truth', 'lies', 'youth', 'subtleties', 'young', 'best', 'tongue', 'd', 'unjust', 'old', 'trust', 'told', 'me', 'be']
+
+Rhyme scheme - abacdedfghghff
+
+Alliterating words - [['my', 'made'], ['I', 'I'], ['might', 'me'], ['Thus', 'that', 'thinking', 'thinks'], ['Simply', 'speaking'], ['sides', 'simple', 'suppress'], ['she', 'she'], ['I', 'I'], ['love', 'loves', 'to', 'told'], ['with', 'with'], ['faults', 'flatter', 'by', 'be']]
+
+Number of alliterating words - 26
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Shakespearean Sonnet
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.17, 'Angry': 0.12, 'Surprise': 0.33, 'Sad': 0.21, 'Fear': 0.17}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Sad, Happy
+Creativity Score - 3.81

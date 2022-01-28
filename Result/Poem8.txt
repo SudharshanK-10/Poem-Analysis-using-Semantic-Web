@@ -1,8 +1,177 @@
-Rhyme Scheme: ababcdcdefefgg
-Number of Alliterations: 35
-Genre: Shakespearean Sonnet 
-Major Emotion: Sad
-Minor Emotions: Fear, Surprise
-----------------------
-Creativity Score: 4.88
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             ababcdcdefefgg
+Number of Alliterations  35
+Genre                    Shakespearean Sonnet
+Major Emotion            Sad
+Minor Emotion            Fear, Surprise
+-----------------------  --------------------
+CREATIVITY SCORE         4.88
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma      POS Tag    Explanation
+---------  ---------  -------------------------
+from       ADP        adposition
+you        PRON       pronoun
+have       VERB       verb
+I          PRON       pronoun
+be         AUX        auxiliary
+absent     ADJ        adjective
+in         ADP        adposition
+the        PRON       pronoun
+spring     NOUN       noun
+when       SCONJ      subordinating conjunction
+proud      ADJ        adjective
+pie        VERB       verb
+April      PROPN      proper noun
+dress      NOUN       noun
+d          X          other
+in         ADP        adposition
+all        PRON       pronoun
+his        PRON       pronoun
+trim       VERB       verb
+Hath       PROPN      proper noun
+put        VERB       verb
+a          PRON       pronoun
+spirit     PROPN      proper noun
+of         ADP        adposition
+youth      NOUN       noun
+in         ADP        adposition
+every      PRON       pronoun
+thing      NOUN       noun
+that       PRON       pronoun
+heavy      ADJ        adjective
+saturn     NOUN       noun
+laugh      VERB       verb
+d          X          other
+and        CCONJ      coordinating conjunction
+leap       NOUN       noun
+d          X          other
+with       ADP        adposition
+he         PRON       pronoun
+yet        ADV        adverb
+nor        CCONJ      coordinating conjunction
+the        PRON       pronoun
+lay        VERB       verb
+of         ADP        adposition
+bird       NOUN       noun
+nor        CCONJ      coordinating conjunction
+the        PRON       pronoun
+sweet      ADJ        adjective
+smell      NOUN       noun
+of         ADP        adposition
+different  ADJ        adjective
+flower     NOUN       noun
+in         ADP        adposition
+odour      ADJ        adjective
+and        CCONJ      coordinating conjunction
+in         ADP        adposition
+hue        NOUN       noun
+could      AUX        auxiliary
+make       VERB       verb
+I          PRON       pronoun
+any        PRON       pronoun
+summer     NOUN       noun
+s          VERB       verb
+story      NOUN       noun
+tell       VERB       verb
+or         CCONJ      coordinating conjunction
+from       ADP        adposition
+their      PRON       pronoun
+proud      ADJ        adjective
+lap        NOUN       noun
+pluck      PROPN      proper noun
+they       PRON       pronoun
+where      SCONJ      subordinating conjunction
+they       PRON       pronoun
+grow       VERB       verb
+nor        CCONJ      coordinating conjunction
+do         VERB       verb
+I          PRON       pronoun
+wonder     NOUN       noun
+at         ADP        adposition
+the        PRON       pronoun
+lily       ADV        adverb
+s          VERB       verb
+white      ADJ        adjective
+nor        CCONJ      coordinating conjunction
+praise     NOUN       noun
+the        PRON       pronoun
+deep       ADJ        adjective
+vermilion  NOUN       noun
+in         ADP        adposition
+the        PRON       pronoun
+rise       VERB       verb
+they       PRON       pronoun
+be         AUX        auxiliary
+but        CCONJ      coordinating conjunction
+sweet      ADJ        adjective
+but        CCONJ      coordinating conjunction
+figure     NOUN       noun
+of         ADP        adposition
+delight    NOUN       noun
+draw       VERB       verb
+after      ADP        adposition
+you        PRON       pronoun
+you        PRON       pronoun
+pattern    NOUN       noun
+of         ADP        adposition
+all        PRON       pronoun
+those      PRON       pronoun
+yet        ADV        adverb
+seem       VERB       verb
+d          X          other
+it         PRON       pronoun
+winter     NOUN       noun
+still      ADV        adverb
+and        CCONJ      coordinating conjunction
+you        PRON       pronoun
+away       ADV        adverb
+as         ADP        adposition
+with       ADP        adposition
+your       PRON       pronoun
+shadow     VERB       verb
+I          PRON       pronoun
+with       ADP        adposition
+these      PRON       pronoun
+do         VERB       verb
+play       NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['spring', 'trim', 'thing', 'him', 'smell', 'hue', 'tell', 'grew', 'white', 'rose', 'delight', 'those', 'away', 'play']
+
+Rhyme scheme - ababcdcdefefgg
+
+Alliterating words - [['proud', 'pied', 'dress', 'd'], ['laugh', 'leap', 'd', 'd', 'heavy', 'him'], ['nor', 'nor', 'the', 'the', 'sweet', 'smell'], ['in', 'in'], ['make', 'me', 'any', 's', 'summer', 'story'], ['proud', 'pluck', 'their', 'them', 'they'], ['wonder', 'white'], ['the', 'the'], ['but', 'but'], ['you', 'you'], ['seem', 'still', 'Yet', 'you', 'and', 'away'], ['with', 'with']]
+
+Number of alliterating words - 35
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Shakespearean Sonnet
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.11, 'Angry': 0.11, 'Surprise': 0.17, 'Sad': 0.39, 'Fear': 0.22}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Sad
+Minor Emotions - Fear, Surprise
+Creativity Score - 4.88

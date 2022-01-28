@@ -1,8 +1,181 @@
-Rhyme Scheme: abcbdefeghghii
-Number of Alliterations: 43
-Genre: Shakespearean Sonnet 
-Major Emotion: Sad
-Minor Emotions: Fear, Surprise
-----------------------
-Creativity Score: 4.79
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             abcbdefeghghii
+Number of Alliterations  43
+Genre                    Shakespearean Sonnet
+Major Emotion            Sad
+Minor Emotion            Fear, Surprise
+-----------------------  --------------------
+CREATIVITY SCORE         4.79
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma         POS Tag    Explanation
+------------  ---------  -------------------------
+I             PRON       pronoun
+don           PROPN      proper noun
+t             NOUN       noun
+know          VERB       verb
+what          PRON       pronoun
+to            ADP        adposition
+say           VERB       verb
+to            ADP        adposition
+you           PRON       pronoun
+neighbor      NOUN       noun
+as            ADP        adposition
+you           PRON       pronoun
+shovel        NOUN       noun
+snow          NOUN       noun
+from          ADP        adposition
+your          PRON       pronoun
+part          NOUN       noun
+of            ADP        adposition
+our           PRON       pronoun
+street        NOUN       noun
+neat          ADJ        adjective
+in            ADP        adposition
+your          PRON       pronoun
+greek         ADJ        adjective
+black         ADJ        adjective
+I             PRON       pronoun
+ve            VERB       verb
+wait          VERB       verb
+for           ADP        adposition
+chance        NOUN       noun
+to            ADP        adposition
+find          VERB       verb
+word          NOUN       noun
+now           ADV        adverb
+by            ADP        adposition
+chance        NOUN       noun
+we            PRON       pronoun
+meet          VERB       verb
+we            PRON       pronoun
+take          VERB       verb
+our           PRON       pronoun
+boy           NOUN       noun
+to            ADP        adposition
+the           PRON       pronoun
+same          ADJ        adjective
+kindergarten  NOUN       noun
+thirteen      NUM        numeral
+year          NOUN       noun
+ago           ADV        adverb
+when          SCONJ      subordinating conjunction
+our           PRON       pronoun
+husband       NOUN       noun
+go            VERB       verb
+both          PRON       pronoun
+boy           NOUN       noun
+hate          VERB       verb
+school        NOUN       noun
+drop          VERB       verb
+out           ADV        adverb
+feral         ADJ        adjective
+drop          VERB       verb
+in            ADP        adposition
+to            ADP        adposition
+separate      ADJ        adjective
+trouble       NOUN       noun
+you           PRON       pronoun
+shift         VERB       verb
+snow          NOUN       noun
+fast          ADV        adverb
+back          ADV        adverb
+bent          ADJ        adjective
+but           CCONJ      coordinating conjunction
+your          PRON       pronoun
+boy           NOUN       noun
+kill          VERB       verb
+himself       PRON       pronoun
+six           NUM        numeral
+day           NOUN       noun
+dead          ADJ        adjective
+my            PRON       pronoun
+boy           NOUN       noun
+wash          VERB       verb
+your          PRON       pronoun
+wall          PROPN      proper noun
+when          SCONJ      subordinating conjunction
+the           PRON       pronoun
+police        NOUN       noun
+be            AUX        auxiliary
+do            VERB       verb
+he            PRON       pronoun
+say           VERB       verb
+we            PRON       pronoun
+weren         PROPN      proper noun
+t             NOUN       noun
+friend        NOUN       noun
+and           CCONJ      coordinating conjunction
+shake         VERB       verb
+his           PRON       pronoun
+head          NOUN       noun
+I             PRON       pronoun
+tell          VERB       verb
+he            PRON       pronoun
+it            PRON       pronoun
+be            AUX        auxiliary
+great         ADJ        adjective
+he            PRON       pronoun
+have          VERB       verb
+that          PRON       pronoun
+gun           NOUN       noun
+and           CCONJ      coordinating conjunction
+shake         VERB       verb
+I             PRON       pronoun
+shake         NOUN       noun
+close         ADJ        adjective
+to            ADP        adposition
+you           PRON       pronoun
+close         ADJ        adjective
+to            ADP        adposition
+you           PRON       pronoun
+you           PRON       pronoun
+have          VERB       verb
+a             PRON       pronoun
+path          NOUN       noun
+to            ADP        adposition
+clear         ADJ        adjective
+and           CCONJ      coordinating conjunction
+so            ADV        adverb
+you           PRON       pronoun
+do            VERB       verb
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['neighbor', 'street', 'for', 'meet', 'kindergarten', 'went', 'in', 'bent', 'dead', 'done', 'head', 'gun', 'you', 'do']
+
+Rhyme scheme - abcbdefeghghii
+
+Alliterating words - [['t', 'to', 'to', 'know', 'neighbor'], ['you', 'your', 'snow', 'street'], ['chance', 'chance', 'words', 'we'], ['took', 'to'], ['when', 'went'], ['Both', 'boys', 'dropped', 'dropped'], ['to', 'troubles', 'separate', 'snow', 'back', 'bent'], ['but', 'boy', 'days', 'dead'], ['washed', 'wall', 'when', 'were'], ['He', 'his', 'head'], ['him', 'he', 'had', 'great', 'gun'], ['shakes', 'shake', 'close', 'close', 'to', 'to', 'you', 'you'], ['a', 'and', 'You', 'you']]
+
+Number of alliterating words - 43
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Shakespearean Sonnet
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.2, 'Angry': 0.12, 'Surprise': 0.2, 'Sad': 0.24, 'Fear': 0.24}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Sad
+Minor Emotions - Fear, Surprise
+Creativity Score - 4.79

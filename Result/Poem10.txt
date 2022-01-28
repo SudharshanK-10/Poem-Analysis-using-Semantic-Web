@@ -1,8 +1,166 @@
-Rhyme Scheme: abcbdedefgfghiji
-Number of Alliterations: 28
-Genre: Artistic Free Verse 
-Major Emotion: Surprise
-Minor Emotions: Sad, Fear
-----------------------
-Creativity Score: 4.59
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  -------------------
+Rhyme Scheme             abcbdedefgfghiji
+Number of Alliterations  28
+Genre                    Artistic Free Verse
+Major Emotion            Surprise
+Minor Emotion            Sad, Fear
+-----------------------  -------------------
+CREATIVITY SCORE         4.59
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma     POS Tag    Explanation
+--------  ---------  -------------------------
+if        SCONJ      subordinating conjunction
+the       PRON       pronoun
+red       ADJ        adjective
+slayer    NOUN       noun
+think     VERB       verb
+he        PRON       pronoun
+slay      VERB       verb
+or        CCONJ      coordinating conjunction
+if        SCONJ      subordinating conjunction
+the       PRON       pronoun
+slay      VERB       verb
+think     VERB       verb
+he        PRON       pronoun
+be        AUX        auxiliary
+slay      VERB       verb
+they      PRON       pronoun
+know      VERB       verb
+not       PART       particle
+well      ADV        adverb
+the       PRON       pronoun
+subtle    ADJ        adjective
+way       NOUN       noun
+I         PRON       pronoun
+keep      VERB       verb
+and       CCONJ      coordinating conjunction
+pass      VERB       verb
+and       CCONJ      coordinating conjunction
+turn      VERB       verb
+again     ADV        adverb
+far       ADV        adverb
+or        CCONJ      coordinating conjunction
+forget    VERB       verb
+to        ADP        adposition
+I         PRON       pronoun
+be        AUX        auxiliary
+near      ADP        adposition
+shadow    NOUN       noun
+and       CCONJ      coordinating conjunction
+sunlight  NOUN       noun
+be        AUX        auxiliary
+the       PRON       pronoun
+same      ADJ        adjective
+the       PRON       pronoun
+vanish    VERB       verb
+god       NOUN       noun
+to        ADP        adposition
+I         PRON       pronoun
+appear    VERB       verb
+and       CCONJ      coordinating conjunction
+one       NUM        numeral
+to        ADP        adposition
+I         PRON       pronoun
+be        AUX        auxiliary
+shame     NOUN       noun
+and       CCONJ      coordinating conjunction
+fame      PROPN      proper noun
+they      PRON       pronoun
+reckon    VERB       verb
+ill       ADV        adverb
+who       PRON       pronoun
+leave     VERB       verb
+I         PRON       pronoun
+out       ADV        adverb
+when      SCONJ      subordinating conjunction
+I         PRON       pronoun
+they      PRON       pronoun
+fly       VERB       verb
+I         PRON       pronoun
+be        AUX        auxiliary
+the       PRON       pronoun
+wing      NOUN       noun
+I         PRON       pronoun
+be        AUX        auxiliary
+the       PRON       pronoun
+doubter   NOUN       noun
+and       CCONJ      coordinating conjunction
+the       PRON       pronoun
+doubt     NOUN       noun
+I         PRON       pronoun
+be        AUX        auxiliary
+the       PRON       pronoun
+hymn      PROPN      proper noun
+the       PRON       pronoun
+brahmin   NOUN       noun
+sing      NOUN       noun
+the       PRON       pronoun
+strong    ADJ        adjective
+god       NOUN       noun
+pine      NOUN       noun
+for       ADP        adposition
+my        PRON       pronoun
+abode     NOUN       noun
+and       CCONJ      coordinating conjunction
+pine      NOUN       noun
+in        ADP        adposition
+vain      ADJ        adjective
+the       PRON       pronoun
+sacred    ADJ        adjective
+seven     NUM        numeral
+but       CCONJ      coordinating conjunction
+thou      NOUN       noun
+meek      PROPN      proper noun
+lover     PROPN      proper noun
+of        ADP        adposition
+the       PRON       pronoun
+good      ADJ        adjective
+find      VERB       verb
+I         PRON       pronoun
+and       CCONJ      coordinating conjunction
+turn      VERB       verb
+thy       PRON       pronoun
+back      ADV        adverb
+on        ADP        adposition
+heaven    PROPN      proper noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['slays', 'slain', 'ways', 'again', 'near', 'same', 'appear', 'fame', 'out', 'wings', 'doubt', 'sings', 'abode', 'Seven', 'good', 'heaven']
+
+Rhyme scheme - abcbdedefgfghiji
+
+Alliterating words - [['if', 'is', 'slain', 'slain'], ['know', 'not', 'They', 'the', 'well', 'ways'], ['and', 'and', 'again'], ['Far', 'forgot'], ['sunlight', 'same'], ['And', 'and'], ['they', 'the', 'When', 'wings'], ['the', 'the', 'doubter', 'doubt'], ['the', 'the'], ['sacred', 'Seven'], ['thou', 'the']]
+
+Number of alliterating words - 28
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.08, 'Angry': 0.08, 'Surprise': 0.42, 'Sad': 0.25, 'Fear': 0.17}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Sad, Fear
+Creativity Score - 4.59

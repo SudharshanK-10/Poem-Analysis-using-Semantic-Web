@@ -1,8 +1,76 @@
-Rhyme Scheme: abcd
-Number of Alliterations: 6
-Genre: Limerick 
-Major Emotion: Surprise
-Minor Emotions: Sad, Fear
-----------------------
-Creativity Score: 2.29
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ---------
+Rhyme Scheme             abcd
+Number of Alliterations  6
+Genre                    Limerick
+Major Emotion            Surprise
+Minor Emotion            Sad, Fear
+-----------------------  ---------
+CREATIVITY SCORE         2.29
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma    POS Tag    Explanation
+-------  ---------  -------------------------
+if       SCONJ      subordinating conjunction
+ice      NOUN       noun
+cream    NOUN       noun
+could    AUX        auxiliary
+be       AUX        auxiliary
+grow     VERB       verb
+on       ADP        adposition
+the      PRON       pronoun
+tree     NOUN       noun
+top      NOUN       noun
+tiny     ADJ        adjective
+tummy    NOUN       noun
+would    AUX        auxiliary
+be       AUX        auxiliary
+like     VERB       verb
+it       PRON       pronoun
+lot      NOUN       noun
+any      PRON       pronoun
+fruit    NOUN       noun
+flavour  NOUN       noun
+for      ADP        adposition
+all      PRON       pronoun
+to       ADP        adposition
+savour   NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['top', 'lots', 'flavour', 'savour']
+
+Rhyme scheme - abcd
+
+Alliterating words - [['cream', 'could', 'tree', 'top'], ['Tiny', 'tummies', 'liking', 'lots']]
+
+Number of alliterating words - 6
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Limerick
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.0, 'Angry': 0.0, 'Surprise': 0.33, 'Sad': 0.33, 'Fear': 0.33}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Sad, Fear
+Creativity Score - 2.29

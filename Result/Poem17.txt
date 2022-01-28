@@ -1,8 +1,166 @@
-Rhyme Scheme: aabccdeeeeffghigeeee
-Number of Alliterations: 38
-Genre: Artistic Free Verse 
-Major Emotion: Surprise
-Minor Emotions: Sad, Happy
-----------------------
-Creativity Score: 5.85
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             aabccdeeeeffghigeeee
+Number of Alliterations  38
+Genre                    Artistic Free Verse
+Major Emotion            Surprise
+Minor Emotion            Sad, Happy
+-----------------------  --------------------
+CREATIVITY SCORE         5.85
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma        POS Tag    Explanation
+-----------  ---------  -------------------------
+blow         VERB       verb
+blow         NOUN       noun
+thou         NOUN       noun
+winter       NOUN       noun
+wind         NOUN       noun
+thou         NOUN       noun
+art          NOUN       noun
+not          PART       particle
+so           ADV        adverb
+unkind       NOUN       noun
+as           ADP        adposition
+man          NOUN       noun
+s            VERB       verb
+ingratitude  VERB       verb
+Thy          NOUN       noun
+tooth        NOUN       noun
+be           AUX        auxiliary
+not          PART       particle
+so           ADV        adverb
+keen         ADJ        adjective
+because      SCONJ      subordinating conjunction
+thou         NOUN       noun
+art          NOUN       noun
+not          PART       particle
+see          VERB       verb
+although     SCONJ      subordinating conjunction
+thy          PRON       pronoun
+breath       NOUN       noun
+be           AUX        auxiliary
+rude         ADJ        adjective
+heigh        NOUN       noun
+ho           PROPN      proper noun
+sing         VERB       verb
+heigh        NOUN       noun
+ho           PROPN      proper noun
+unto         ADP        adposition
+the          PRON       pronoun
+green        ADJ        adjective
+holly        ADV        adverb
+Most         ADJ        adjective
+freindship   NOUN       noun
+if           SCONJ      subordinating conjunction
+feign        VERB       verb
+most         ADJ        adjective
+love         VERB       verb
+mere         ADV        adverb
+folly        PROPN      proper noun
+then         ADV        adverb
+heigh        NOUN       noun
+ho           PROPN      proper noun
+the          PRON       pronoun
+holly        ADV        adverb
+this         PRON       pronoun
+life         NOUN       noun
+be           AUX        auxiliary
+most         ADJ        adjective
+jolly        ADV        adverb
+freeze       VERB       verb
+freeze       VERB       verb
+thou         NOUN       noun
+bitter       ADJ        adjective
+sky          NOUN       noun
+that         PRON       pronoun
+do           VERB       verb
+not          PART       particle
+bite         VERB       verb
+so           ADV        adverb
+nigh         NOUN       noun
+as           ADP        adposition
+benefit      NOUN       noun
+forget       VERB       verb
+though       SCONJ      subordinating conjunction
+thou         NOUN       noun
+the          PRON       pronoun
+water        NOUN       noun
+warp         NOUN       noun
+Thy          NOUN       noun
+ste          VERB       verb
+be           AUX        auxiliary
+not          PART       particle
+so           ADV        adverb
+sharp        ADJ        adjective
+as           ADP        adposition
+a            PRON       pronoun
+friend       NOUN       noun
+remember     VERB       verb
+not          PART       particle
+heigh        NOUN       noun
+ho           PROPN      proper noun
+sing         VERB       verb
+heigh        NOUN       noun
+ho           PROPN      proper noun
+unto         ADP        adposition
+the          PRON       pronoun
+green        ADJ        adjective
+holly        ADV        adverb
+Most         ADJ        adjective
+friendship   NOUN       noun
+be           AUX        auxiliary
+feign        VERB       verb
+most         ADJ        adjective
+love         VERB       verb
+mere         ADV        adverb
+folly        PROPN      proper noun
+then         ADV        adverb
+heigh        NOUN       noun
+ho           PROPN      proper noun
+the          PRON       pronoun
+holly        ADV        adverb
+this         PRON       pronoun
+life         NOUN       noun
+be           AUX        auxiliary
+most         ADJ        adjective
+jolly        ADV        adverb
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['wind', 'unkind', 'ingratitude', 'keen', 'seen', 'rude', 'holly', 'folly', 'holly', 'jolly', 'sky', 'nigh', 'forgot', 'warp', 'sharp', 'not', 'holly', 'folly', 'holly', 'jolly']
+
+Rhyme scheme - aabccdeeeeffghigeeee
+
+Alliterating words - [['Blow', 'blow', 'winter', 'wind'], ['breath', 'be'], ['Heigh', 'heigh', 'ho', 'ho', 'holly'], ['Most', 'most', 'mere', 'feigning', 'folly'], ['Then', 'the', 'ho', 'holly'], ['Freeze', 'freeze'], ['not', 'nigh'], ['Though', 'thou', 'the', 'waters', 'warp'], ['sting', 'so'], ['Heigh', 'heigh', 'ho', 'ho', 'holly'], ['friendship', 'feigning', 'Most', 'most', 'mere', 'folly'], ['Then', 'the', 'ho', 'holly']]
+
+Number of alliterating words - 38
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.17, 'Angry': 0.14, 'Surprise': 0.38, 'Sad': 0.17, 'Fear': 0.14}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Sad, Happy
+Creativity Score - 5.85

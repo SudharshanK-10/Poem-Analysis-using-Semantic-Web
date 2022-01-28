@@ -1,8 +1,214 @@
-Rhyme Scheme: aabccdeffghijkklmnopqrstuuvusw
-Number of Alliterations: 6
-Genre: Narrative 
-Major Emotion: Sad
-Minor Emotions: Happy, Surprise
-----------------------
-Creativity Score: 2.19
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ------------------------------
+Rhyme Scheme             aabccdeffghijkklmnopqrstuuvusw
+Number of Alliterations  6
+Genre                    Narrative
+Major Emotion            Sad
+Minor Emotion            Happy, Surprise
+-----------------------  ------------------------------
+CREATIVITY SCORE         2.19
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma          POS Tag    Explanation
+-------------  ---------  -------------------------
+I              PRON       pronoun
+hold           VERB       verb
+a              PRON       pronoun
+full           ADJ        adjective
+moon           NOUN       noun
+at             ADP        adposition
+noon           NOUN       noun
+I              PRON       pronoun
+try            VERB       verb
+to             ADP        adposition
+get            VERB       verb
+it             PRON       pronoun
+out            ADV        adverb
+but            CCONJ      coordinating conjunction
+my             PRON       pronoun
+finger         VERB       verb
+be             AUX        auxiliary
+glue           VERB       verb
+to             ADP        adposition
+it             PRON       pronoun
+and            CCONJ      coordinating conjunction
+they           PRON       pronoun
+settle         VERB       verb
+in             ADP        adposition
+its            PRON       pronoun
+pit            NOUN       noun
+where          SCONJ      subordinating conjunction
+no             INTJ       interjection
+light          ADJ        adjective
+have           VERB       verb
+ever           ADV        adverb
+spoon          VERB       verb
+I              PRON       pronoun
+stretch        VERB       verb
+and            CCONJ      coordinating conjunction
+have           VERB       verb
+a              PRON       pronoun
+great          ADJ        adjective
+fall           VERB       verb
+surprisingly   ADV        adverb
+I              PRON       pronoun
+float          VERB       verb
+tall           ADJ        adjective
+and            CCONJ      coordinating conjunction
+feel           VERB       verb
+an             PRON       pronoun
+immaculate     PROPN      proper noun
+phonon         X          other
+vibrate        VERB       verb
+within         ADP        adposition
+my             PRON       pronoun
+spinal         NOUN       noun
+cord           NOUN       noun
+in             ADP        adposition
+turn           VERB       verb
+it             PRON       pronoun
+make           VERB       verb
+a              PRON       pronoun
+complete       ADJ        adjective
+span           NOUN       noun
+underneath     ADP        adposition
+the            PRON       pronoun
+tree           NOUN       noun
+and            CCONJ      coordinating conjunction
+over           ADP        adposition
+the            PRON       pronoun
+ivory          NOUN       noun
+tower          NOUN       noun
+the            PRON       pronoun
+moon           NOUN       noun
+scent          NOUN       noun
+like           INTJ       interjection
+flower         NOUN       noun
+its            PRON       pronoun
+light          ADJ        adjective
+glow           VERB       verb
+in             ADP        adposition
+righteousness  NOUN       noun
+I              PRON       pronoun
+touch          VERB       verb
+deep           ADJ        adjective
+it             PRON       pronoun
+pull           VERB       verb
+a              PRON       pronoun
+trigger        NOUN       noun
+and            CCONJ      coordinating conjunction
+smack          VERB       verb
+I              PRON       pronoun
+down           ADV        adverb
+to             ADP        adposition
+the            PRON       pronoun
+edge           NOUN       noun
+each           PRON       pronoun
+touch          NOUN       noun
+slam           VERB       verb
+I              PRON       pronoun
+a              PRON       pronoun
+voltage        NOUN       noun
+louder         NOUN       noun
+than           ADP        adposition
+all            PRON       pronoun
+thunderstruck  NOUN       noun
+then           ADV        adverb
+it             PRON       pronoun
+spark          VERB       verb
+I              PRON       pronoun
+into           ADP        adposition
+breath         NOUN       noun
+life           NOUN       noun
+rush           VERB       verb
+and            CCONJ      coordinating conjunction
+flow           VERB       verb
+into           ADP        adposition
+my             PRON       pronoun
+brain          NOUN       noun
+connect        VERB       verb
+nerve          NOUN       noun
+with           ADP        adposition
+ray            NOUN       noun
+of             ADP        adposition
+love           NOUN       noun
+gravity        NOUN       noun
+could          AUX        auxiliary
+feel           VERB       verb
+the            PRON       pronoun
+urge           NOUN       noun
+the            PRON       pronoun
+moon           NOUN       noun
+I              PRON       pronoun
+hold           VERB       verb
+be             AUX        auxiliary
+true           ADJ        adjective
+let            VERB       verb
+it             PRON       pronoun
+rain           NOUN       noun
+or             CCONJ      coordinating conjunction
+scotch         NOUN       noun
+in             ADP        adposition
+mist           NOUN       noun
+and            CCONJ      coordinating conjunction
+dew            NOUN       noun
+every          ADV        adverb
+now            ADV        adverb
+and            CCONJ      coordinating conjunction
+forevermore    ADJ        adjective
+I              PRON       pronoun
+ll             AUX        auxiliary
+bring          VERB       verb
+this           PRON       pronoun
+moon           NOUN       noun
+to             ADP        adposition
+you            PRON       pronoun
+for            ADP        adposition
+at             ADP        adposition
+the            PRON       pronoun
+touch          NOUN       noun
+of             ADP        adposition
+love           NOUN       noun
+everyone       PRON       pronoun
+become         VERB       verb
+a              PRON       pronoun
+poet           NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['moon', 'noon', 'out', 'it', 'pit', 'spooned', 'stretched', 'fall', 'tall', 'phonon', 'cord', 'span', 'trees', 'towers', 'flowers', 'righteousness', 'trigger', 'edge', 'voltage', 'thunderstruck', 'breath', 'brain', 'love', 'urge', 'true', 'dew', 'forevermore', 'you', 'love', 'poet']
+
+Rhyme scheme - aabccdeffghijkklmnopqrstuuvusw
+
+Alliterating words - [['tried', 'to'], ['And', 'a'], ['touched', 'trigger']]
+
+Number of alliterating words - 6
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Narrative
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.25, 'Angry': 0.05, 'Surprise': 0.2, 'Sad': 0.45, 'Fear': 0.05}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Sad
+Minor Emotions - Happy, Surprise
+Creativity Score - 2.19

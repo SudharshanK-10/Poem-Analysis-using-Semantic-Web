@@ -5,6 +5,7 @@ from PoetryOntology import PoetryOntology
 from categorizationModule import categorizationModule
 import syntaxOntology
 import metaphorOntology
+from tabulate import tabulate
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -13,6 +14,7 @@ lastWords = [] #store the last words in the sentence to determine the rhyme sche
 previousToken = "" #stores the previous token
 listOfSentences = [] #stores words in each sentence
 singleSentence = [] #stores words in a sentence
+analysis=[] #holds the overall analysis where each element is the result of the respective module
 
 # List of token names
 tokens = (
@@ -67,7 +69,8 @@ def main() :
         listOfSentences = []
         singleSentence = []
 
-        print("\n########## POEM "+str(i)+" ############")
+        print("Processing Poem " + str(i) +"....")
+        #print("\n########## POEM "+str(i)+" ############")
 
         file = open("Poems/Poem"+str(i)+".txt","r")
         data = file.read()
@@ -80,36 +83,40 @@ def main() :
             tok = lexer.token()
             if not tok:
                 break
-            
+
+        '''   
         print("-------------------------------------")
         for lemma in validTokens:
             print(lemma.lemma_ + " - " +lemma.pos_+" - "+spacy.explain(lemma.pos_))
-
+        '''
 
         ###################
         # Syntax Ontology #
         ###################
+        '''
         print("-------------------------------------")
         print("Last words : " + str(lastWords))
+        '''
         syntaxOntologyObj = syntaxOntology.syntaxOntology()
+        
 
         # Get rhyming words
         rhymeScheme = str(syntaxOntologyObj.getRhymeScheme(lastWords));
-        print("Rhyme scheme : " + rhymeScheme + "\n")
+        #print("Rhyme scheme : " + rhymeScheme + "\n")
 
         # Get alliterations
         AlliterationWords,totalAllit = syntaxOntologyObj.getAlliterations(listOfSentences)
-        print("Number of alliterating words: " + str(totalAllit))
-        print("Alliterating words : " + str(AlliterationWords))
+        #print("Number of alliterating words: " + str(totalAllit))
+        #print("Alliterating words : " + str(AlliterationWords))
 
 
         #####################
         # Metaphor Ontology #
         #####################
-        print("-------------------------------------")
+        #print("-------------------------------------")
         metaphorOntologyObj = metaphorOntology.metaphorOntology()
         emotion = metaphorOntologyObj.getPoemEmotion(data)
-        print(emotion)
+        #print(emotion)
     
 
         ##################
@@ -126,25 +133,86 @@ def main() :
         ###################
         poetryOntologyObj = PoetryOntology()
         genre = poetryOntologyObj.getGenre(listOfSentences, rhymeScheme, totalAllit, majorEmotion)
-        print(genre)
+        #print(genre)
 
 
         ################
         # Final Output #
         ################
         finalScore = categorizationObj.calculateFinalScore()
-        print("Major Emotion: " + majorEmotion)
-        print("Minor Emotions: " + minorEmotions)
-        print("Creativity Score: " + str(finalScore))
+        #print("Major Emotion: " + majorEmotion)
+        #print("Minor Emotions: " + minorEmotions)
+        #print("Creativity Score: " + str(finalScore))
+
 
         outFile = open("Result/Poem"+str(i)+".txt", "w")
-        outFile.write("Rhyme Scheme: " + rhymeScheme + "\n")
-        outFile.write("Number of Alliterations: " + str(totalAllit) + "\n")
-        outFile.write("Genre: " + genre + " \n")
-        outFile.write("Major Emotion: " + majorEmotion + "\n")
-        outFile.write("Minor Emotions: " + minorEmotions + "\n")
-        outFile.write("----------------------\n")
-        outFile.write("Creativity Score: " + str(finalScore) + "\n")
-        outFile.write("----------------------\n")
+        poemAnalysis = []
+
+
+        outFile.write("------------FINAL RESULT----------------\n\n")
+        l = [["Rhyme Scheme",rhymeScheme],["Number of Alliterations",str(totalAllit)],["Genre",genre]
+        ,["Major Emotion",majorEmotion],["Minor Emotion",minorEmotions]
+        ]
+
+        finalResultTable = tabulate(l)
+        outFile.write(finalResultTable)
+        outFile.write("\nCREATIVITY SCORE         " + str(finalScore) + "\n")
+        outFile.write("----------------------   ------------------\n\n")
+
+         #for overall analysis table
+        poemAnalysis.append("Poem"+str(i))
+        poemAnalysis.append(rhymeScheme)
+        poemAnalysis.append(str(totalAllit))
+        poemAnalysis.append(genre)
+        poemAnalysis.append(majorEmotion)
+        poemAnalysis.append(minorEmotions)
+        poemAnalysis.append(str(finalScore))
+        analysis.append(poemAnalysis)
+
+        outFile.write("-------MODULE-WISE RESULTS---------\n\n")
+        #preprocessing module
+        outFile.write("------------------------------------\n")
+        outFile.write("------PRE PROCESSING MODULE-------\n")
+        outFile.write("------------------------------------\n\n")
+        l = []
+        for lemma in validTokens:
+            l.append([lemma.lemma_,lemma.pos_,spacy.explain(lemma.pos_)])
+        preProcessingModuleResult = tabulate(l,headers=["Lemma","POS Tag","Explanation"])
+        outFile.write(preProcessingModuleResult)
+
+        #syntax ontology module
+        outFile.write("\n\n------------------------------------\n")
+        outFile.write("-----SYNTAX ONTOLOGY MODULE-------\n")
+        outFile.write("------------------------------------\n\n")
+        outFile.write("Last words - " + str(lastWords) + "\n\n")
+        outFile.write("Rhyme scheme - " + rhymeScheme + "\n\n")
+        outFile.write("Alliterating words - " + str(AlliterationWords) + "\n\n")
+        outFile.write("Number of alliterating words - " + str(totalAllit) + "\n\n")
+        
+        #poetry ontology module
+        outFile.write("------------------------------------\n")
+        outFile.write("-----POETRY ONTOLOGY MODULE-------\n")
+        outFile.write("------------------------------------\n\n")
+        outFile.write("Genre - " + genre + "\n\n")
+
+        #metaphor ontology module
+        outFile.write("------------------------------------\n")
+        outFile.write("-----METAPHOR ONTOLOGY MODULE-------\n")
+        outFile.write("------------------------------------\n\n")
+        outFile.write(str(emotion) + "\n\n")
+
+        #categorisation module
+        outFile.write("------------------------------------\n")
+        outFile.write("-----CATEGORISATION MODULE-----------\n")
+        outFile.write("------------------------------------\n\n")
+        outFile.write("Major Emotion - " + majorEmotion + "\n")
+        outFile.write("Minor Emotions - " + minorEmotions + "\n")
+        outFile.write("Creativity Score - " + str(finalScore) + "\n")
+
+    overAllAnalysisTable = tabulate(analysis,headers=["Poem Name","Rhyme Scheme","Number of Alliterations",
+    "Genre","Major Emotion","Minor Emotions", "Creativity Score"])
+
+    outFile = open("Result/Analysis.txt","w")
+    outFile.write(overAllAnalysisTable)
 
 main()

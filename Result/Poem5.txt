@@ -1,8 +1,425 @@
-Rhyme Scheme: abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKBd
-Number of Alliterations: 83
-Genre: Narrative 
-Major Emotion: Fear
-Minor Emotions: Sad, Surprise
-----------------------
-Creativity Score: 3.38
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ----------------------------------------------
+Rhyme Scheme             abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKBd
+Number of Alliterations  83
+Genre                    Narrative
+Major Emotion            Fear
+Minor Emotion            Sad, Surprise
+-----------------------  ----------------------------------------------
+CREATIVITY SCORE         3.38
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma       POS Tag    Explanation
+----------  ---------  -------------------------
+farewell    VERB       verb
+God         PROPN      proper noun
+know        VERB       verb
+when        SCONJ      subordinating conjunction
+we          PRON       pronoun
+shall       AUX        auxiliary
+meet        VERB       verb
+again       ADV        adverb
+I           PRON       pronoun
+have        VERB       verb
+a           PRON       pronoun
+faint       ADJ        adjective
+cold        ADJ        adjective
+fear        NOUN       noun
+thrill      NOUN       noun
+through     ADP        adposition
+my          PRON       pronoun
+vein        NOUN       noun
+that        PRON       pronoun
+almost      ADV        adverb
+freeze      VERB       verb
+up          ADV        adverb
+the         PRON       pronoun
+heat        NOUN       noun
+of          ADP        adposition
+life        NOUN       noun
+I           PRON       pronoun
+ll          AUX        auxiliary
+call        VERB       verb
+they        PRON       pronoun
+back        ADV        adverb
+again       ADV        adverb
+to          ADP        adposition
+comfort     NOUN       noun
+I           PRON       pronoun
+nurse       NOUN       noun
+what        PRON       pronoun
+should      AUX        auxiliary
+she         PRON       pronoun
+do          VERB       verb
+here        ADV        adverb
+my          PRON       pronoun
+dismal      ADJ        adjective
+scene       NOUN       noun
+I           PRON       pronoun
+need        VERB       verb
+must        AUX        auxiliary
+act         VERB       verb
+alone       ADV        adverb
+come        VERB       verb
+vial        ADJ        adjective
+what        PRON       pronoun
+if          SCONJ      subordinating conjunction
+this        PRON       pronoun
+mixture     NOUN       noun
+do          VERB       verb
+not         PART       particle
+work        NOUN       noun
+at          ADP        adposition
+all         PRON       pronoun
+shall       AUX        auxiliary
+I           PRON       pronoun
+be          AUX        auxiliary
+marry       VERB       verb
+then        ADV        adverb
+to          ADP        adposition
+morrow      NOUN       noun
+morning     NOUN       noun
+no          INTJ       interjection
+no          INTJ       interjection
+this        PRON       pronoun
+shall       AUX        auxiliary
+forbid      VERB       verb
+it          PRON       pronoun
+lie         NOUN       noun
+thou        NOUN       noun
+there       ADV        adverb
+what        PRON       pronoun
+if          SCONJ      subordinating conjunction
+it          PRON       pronoun
+be          AUX        auxiliary
+a           PRON       pronoun
+poison      NOUN       noun
+which       PRON       pronoun
+the         PRON       pronoun
+friar       PROPN      proper noun
+subtly      ADV        adverb
+hath        PROPN      proper noun
+minister    PROPN      proper noun
+d           X          other
+to          ADP        adposition
+have        VERB       verb
+I           PRON       pronoun
+dead        ADJ        adjective
+lest        ADP        adposition
+in          ADP        adposition
+this        PRON       pronoun
+marriage    NOUN       noun
+he          PRON       pronoun
+should      AUX        auxiliary
+be          AUX        auxiliary
+dishonour   VERB       verb
+d           X          other
+because     SCONJ      subordinating conjunction
+he          PRON       pronoun
+marry       VERB       verb
+I           PRON       pronoun
+before      ADP        adposition
+to          ADP        adposition
+Romeo       NOUN       noun
+I           PRON       pronoun
+fear        NOUN       noun
+it          PRON       pronoun
+be          AUX        auxiliary
+and         CCONJ      coordinating conjunction
+yet         ADV        adverb
+methink     NOUN       noun
+it          PRON       pronoun
+should      AUX        auxiliary
+not         PART       particle
+for         ADP        adposition
+he          PRON       pronoun
+hath        PROPN      proper noun
+still       ADV        adverb
+be          AUX        auxiliary
+try         VERB       verb
+a           PRON       pronoun
+holy        PROPN      proper noun
+man         NOUN       noun
+I           PRON       pronoun
+will        AUX        auxiliary
+not         PART       particle
+entertain   VERB       verb
+so          ADV        adverb
+bad         ADJ        adjective
+a           PRON       pronoun
+think       VERB       verb
+how         SCONJ      subordinating conjunction
+if          SCONJ      subordinating conjunction
+when        SCONJ      subordinating conjunction
+I           PRON       pronoun
+be          AUX        auxiliary
+lay         VERB       verb
+into        ADP        adposition
+the         PRON       pronoun
+tomb        NOUN       noun
+I           PRON       pronoun
+wake        VERB       verb
+before      ADP        adposition
+the         PRON       pronoun
+time        NOUN       noun
+that        PRON       pronoun
+Romeo       NOUN       noun
+come        VERB       verb
+to          ADP        adposition
+redeem      VERB       verb
+I           PRON       pronoun
+there       ADV        adverb
+s           VERB       verb
+a           PRON       pronoun
+fearful     ADJ        adjective
+point       NOUN       noun
+shall       AUX        auxiliary
+I           PRON       pronoun
+not         PART       particle
+then        ADV        adverb
+be          AUX        auxiliary
+stifle      VERB       verb
+in          ADP        adposition
+the         PRON       pronoun
+vault       VERB       verb
+to          ADP        adposition
+whose       DET        determiner
+foul        NOUN       noun
+mouth       NOUN       noun
+no          INTJ       interjection
+healthsome  VERB       verb
+air         NOUN       noun
+breathe     VERB       verb
+in          ADP        adposition
+and         CCONJ      coordinating conjunction
+there       ADV        adverb
+die         VERB       verb
+strangle    VERB       verb
+ere         VERB       verb
+my          PRON       pronoun
+Romeo       NOUN       noun
+come        VERB       verb
+or          CCONJ      coordinating conjunction
+if          SCONJ      subordinating conjunction
+I           PRON       pronoun
+live        VERB       verb
+be          AUX        auxiliary
+it          PRON       pronoun
+not         PART       particle
+very        ADV        adverb
+like        INTJ       interjection
+the         PRON       pronoun
+horrible    ADJ        adjective
+conceit     NOUN       noun
+of          ADP        adposition
+death       NOUN       noun
+and         CCONJ      coordinating conjunction
+night       NOUN       noun
+together    ADV        adverb
+with        ADP        adposition
+the         PRON       pronoun
+terror      NOUN       noun
+of          ADP        adposition
+the         PRON       pronoun
+place       NOUN       noun
+as          ADP        adposition
+in          ADP        adposition
+a           PRON       pronoun
+vault       VERB       verb
+an          PRON       pronoun
+ancient     ADJ        adjective
+receptacle  NOUN       noun
+where       SCONJ      subordinating conjunction
+for         ADP        adposition
+this        PRON       pronoun
+many        ADJ        adjective
+hundred     NUM        numeral
+year        NOUN       noun
+the         PRON       pronoun
+bone        NOUN       noun
+of          ADP        adposition
+all         PRON       pronoun
+my          PRON       pronoun
+bury        VERB       verb
+ancestor    NOUN       noun
+be          AUX        auxiliary
+pack        VERB       verb
+d           X          other
+where       SCONJ      subordinating conjunction
+bloody      ADJ        adjective
+tybalt      NOUN       noun
+yet         ADV        adverb
+but         CCONJ      coordinating conjunction
+green       ADJ        adjective
+in          ADP        adposition
+earth       NOUN       noun
+lie         NOUN       noun
+fester      VERB       verb
+in          ADP        adposition
+his         PRON       pronoun
+shroud      NOUN       noun
+where       SCONJ      subordinating conjunction
+as          ADP        adposition
+they        PRON       pronoun
+say         VERB       verb
+at          ADP        adposition
+some        PRON       pronoun
+hour        NOUN       noun
+in          ADP        adposition
+the         PRON       pronoun
+night       NOUN       noun
+spirit      NOUN       noun
+resort      NOUN       noun
+alack       VERB       verb
+alack       VERB       verb
+be          AUX        auxiliary
+it          PRON       pronoun
+not         PART       particle
+like        INTJ       interjection
+that        PRON       pronoun
+I           PRON       pronoun
+so          ADV        adverb
+early       ADJ        adjective
+wake        VERB       verb
+what        PRON       pronoun
+with        ADP        adposition
+loathsome   ADJ        adjective
+smell       VERB       verb
+and         CCONJ      coordinating conjunction
+shriek      NOUN       noun
+like        INTJ       interjection
+mandrake    NOUN       noun
+tear        VERB       verb
+out         ADV        adverb
+of          ADP        adposition
+the         PRON       pronoun
+earth       NOUN       noun
+that        PRON       pronoun
+live        VERB       verb
+mortal      NOUN       noun
+hear        VERB       verb
+they        PRON       pronoun
+run         VERB       verb
+mad         ADJ        adjective
+o           INTJ       interjection
+if          SCONJ      subordinating conjunction
+I           PRON       pronoun
+wake        VERB       verb
+shall       AUX        auxiliary
+I           PRON       pronoun
+not         PART       particle
+be          AUX        auxiliary
+distraught  NOUN       noun
+environ     VERB       verb
+with        ADP        adposition
+all         PRON       pronoun
+these       PRON       pronoun
+hideous     ADJ        adjective
+fear        VERB       verb
+and         CCONJ      coordinating conjunction
+madly       ADV        adverb
+play        NOUN       noun
+with        ADP        adposition
+my          PRON       pronoun
+forefather  NOUN       noun
+joint       NOUN       noun
+and         CCONJ      coordinating conjunction
+pluck       PROPN      proper noun
+the         PRON       pronoun
+mangle      VERB       verb
+tybalt      NOUN       noun
+from        ADP        adposition
+his         PRON       pronoun
+shroud      NOUN       noun
+and         CCONJ      coordinating conjunction
+in          ADP        adposition
+this        PRON       pronoun
+rage        NOUN       noun
+with        ADP        adposition
+some        PRON       pronoun
+great       ADJ        adjective
+kinsman     NOUN       noun
+s           VERB       verb
+bone        NOUN       noun
+as          ADP        adposition
+with        ADP        adposition
+a           PRON       pronoun
+club        NOUN       noun
+dash        NOUN       noun
+out         ADV        adverb
+my          PRON       pronoun
+desperate   ADJ        adjective
+brain       NOUN       noun
+o           INTJ       interjection
+look        VERB       verb
+methink     NOUN       noun
+I           PRON       pronoun
+see         VERB       verb
+my          PRON       pronoun
+cousin      PROPN      proper noun
+s           VERB       verb
+ghost       NOUN       noun
+seek        VERB       verb
+out         ADV        adverb
+Romeo       NOUN       noun
+that        PRON       pronoun
+do          VERB       verb
+spit        NOUN       noun
+his         PRON       pronoun
+body        NOUN       noun
+upon        SCONJ      subordinating conjunction
+a           PRON       pronoun
+rapi        ADJ        adjective
+s           VERB       verb
+point       NOUN       noun
+stay        VERB       verb
+tybalt      NOUN       noun
+stay        VERB       verb
+Romeo       NOUN       noun
+I           PRON       pronoun
+come        VERB       verb
+this        PRON       pronoun
+do          VERB       verb
+I           PRON       pronoun
+drink       VERB       verb
+to          ADP        adposition
+thee        ADJ        adjective
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['again', 'veins', 'life', 'me', 'here', 'alone', 'vial', 'all', 'morning', 'there', 'friar', 'dead', 'd', 'Romeo', 'not', 'man', 'thought', 'tomb', 'Romeo', 'point', 'vault', 'in', 'comes', 'like', 'night', 'place', 'receptacle', 'bones', 'd', 'earth', 'say', 'resort', 'I', 'smells', 'earth', 'mad', 'distraught', 'fears', 'joints', 'shroud', 'bone', 'brains', 'ghost', 'body', 'stay', 'thee']
+
+Rhyme scheme - abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKBd
+
+Alliterating words - [['when', 'we'], ['faint', 'fear', 'thrills', 'through'], ['That', 'the', 'up', 'of'], ['call', 'comfort'], ['should', 'she'], ['My', 'must'], ['What', 'work'], ['married', 'morrow', 'morning'], ['No', 'No', 'this', 'thou', 'there'], ['if', 'it', 'What', 'which'], ['hath', 'have', 'minister', 'me', 'd', 'dead'], ['married', 'me', 'Because', 'before'], ['it', 'is', 'it'], ['he', 'hath', 'holy'], ['the', 'that'], ['then', 'the'], ['if', 'is', 'it', 'live', 'like'], ['Together', 'terror', 'the', 'the'], ['As', 'an'], ['this', 'the'], ['bloody', 'but'], ['some', 'spirits'], ['Alack', 'alack', 'is', 'it'], ['waking', 'what', 'with', 'So', 'smells'], ['That', 'them', 'mortals', 'mad'], ['I', 'I'], ['madly', 'my'], ['dash', 'desperate'], ['Seeking', 'spit'], ['Upon', 'a', 'stay', 'stay'], ['I', 'I', 'do', 'drink', 'this', 'thee']]
+
+Number of alliterating words - 83
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Narrative
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.02, 'Angry': 0.15, 'Surprise': 0.2, 'Sad': 0.26, 'Fear': 0.37}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Sad, Surprise
+Creativity Score - 3.38

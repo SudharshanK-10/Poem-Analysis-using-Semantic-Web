@@ -1,8 +1,254 @@
-Rhyme Scheme: abcdefghibjklmnopqrsntuv
-Number of Alliterations: 53
-Genre: Artistic Free Verse 
-Major Emotion: Fear
-Minor Emotions: Surprise, Sad
-----------------------
-Creativity Score: 2.85
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ------------------------
+Rhyme Scheme             abcdefghibjklmnopqrsntuv
+Number of Alliterations  53
+Genre                    Artistic Free Verse
+Major Emotion            Fear
+Minor Emotion            Surprise, Sad
+-----------------------  ------------------------
+CREATIVITY SCORE         2.85
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma       POS Tag    Explanation
+----------  ---------  -------------------------
+Bulkeley    PROPN      proper noun
+hunt        VERB       verb
+willard     ADP        adposition
+hosmer      NOUN       noun
+Meriam      PROPN      proper noun
+flint       NOUN       noun
+possess     VERB       verb
+the         PRON       pronoun
+land        NOUN       noun
+which       PRON       pronoun
+render      VERB       verb
+to          ADP        adposition
+their       PRON       pronoun
+toil        NOUN       noun
+hay         NOUN       noun
+corn        NOUN       noun
+root        NOUN       noun
+hemp        ADJ        adjective
+flax        NOUN       noun
+apple       NOUN       noun
+wool        NOUN       noun
+and         CCONJ      coordinating conjunction
+wood        NOUN       noun
+each        PRON       pronoun
+of          ADP        adposition
+these       PRON       pronoun
+landlord    NOUN       noun
+walk        VERB       verb
+amidst      ADP        adposition
+his         PRON       pronoun
+farm        NOUN       noun
+say         VERB       verb
+tis         ADJ        adjective
+mine        NOUN       noun
+my          PRON       pronoun
+child       NOUN       noun
+s           VERB       verb
+and         CCONJ      coordinating conjunction
+my          PRON       pronoun
+name        NOUN       noun
+s           VERB       verb
+how         SCONJ      subordinating conjunction
+sweet       ADJ        adjective
+the         PRON       pronoun
+west        ADV        adverb
+wind        NOUN       noun
+sound       VERB       verb
+in          ADP        adposition
+my          PRON       pronoun
+own         ADJ        adjective
+tree        NOUN       noun
+how         SCONJ      subordinating conjunction
+graceful    ADJ        adjective
+climb       NOUN       noun
+those       PRON       pronoun
+shadow      NOUN       noun
+on          ADP        adposition
+my          PRON       pronoun
+hill        PROPN      proper noun
+I           PRON       pronoun
+fancy       ADJ        adjective
+these       PRON       pronoun
+pure        ADJ        adjective
+water       NOUN       noun
+and         CCONJ      coordinating conjunction
+the         PRON       pronoun
+flag        NOUN       noun
+know        VERB       verb
+I           PRON       pronoun
+as          ADP        adposition
+do          VERB       verb
+my          PRON       pronoun
+dog         NOUN       noun
+we          PRON       pronoun
+sympathize  VERB       verb
+and         CCONJ      coordinating conjunction
+I           PRON       pronoun
+affirm      NOUN       noun
+my          PRON       pronoun
+action      NOUN       noun
+smack       VERB       verb
+of          ADP        adposition
+the         PRON       pronoun
+soil        NOUN       noun
+where       SCONJ      subordinating conjunction
+be          AUX        auxiliary
+these       PRON       pronoun
+man         NOUN       noun
+asleep      ADJ        adjective
+beneath     ADP        adposition
+their       PRON       pronoun
+ground      NOUN       noun
+and         CCONJ      coordinating conjunction
+stranger    NOUN       noun
+fond        ADJ        adjective
+as          ADP        adposition
+they        PRON       pronoun
+their       PRON       pronoun
+furrow      VERB       verb
+plough      NOUN       noun
+earth       NOUN       noun
+laugh       VERB       verb
+in          ADP        adposition
+flower      NOUN       noun
+to          ADP        adposition
+see         VERB       verb
+she         PRON       pronoun
+boastful    ADJ        adjective
+boy         NOUN       noun
+earth       NOUN       noun
+proud       ADJ        adjective
+proud       ADJ        adjective
+of          ADP        adposition
+the         PRON       pronoun
+earth       NOUN       noun
+which       PRON       pronoun
+be          AUX        auxiliary
+not         PART       particle
+their       NOUN       noun
+who         PRON       pronoun
+steer       NOUN       noun
+the         PRON       pronoun
+plough      NOUN       noun
+but         CCONJ      coordinating conjunction
+can         AUX        auxiliary
+steer       NOUN       noun
+their       PRON       pronoun
+foot        NOUN       noun
+clear       ADJ        adjective
+of          ADP        adposition
+the         PRON       pronoun
+grave       NOUN       noun
+they        PRON       pronoun
+add         VERB       verb
+ridge       NOUN       noun
+to          ADP        adposition
+valley      PROPN      proper noun
+brook       NOUN       noun
+to          ADP        adposition
+pond        NOUN       noun
+and         CCONJ      coordinating conjunction
+sigh        VERB       verb
+for         ADP        adposition
+all         PRON       pronoun
+that        PRON       pronoun
+bound       VERB       verb
+their       PRON       pronoun
+domain      NOUN       noun
+this        PRON       pronoun
+suit        NOUN       noun
+I           PRON       pronoun
+for         ADP        adposition
+a           PRON       pronoun
+pasture     NOUN       noun
+that        PRON       pronoun
+s           VERB       verb
+my          PRON       pronoun
+park        NOUN       noun
+we          PRON       pronoun
+must        AUX        auxiliary
+have        VERB       verb
+clay        NOUN       noun
+lime        NOUN       noun
+gravel      VERB       verb
+granite     NOUN       noun
+ledge       NOUN       noun
+and         CCONJ      coordinating conjunction
+misty       PROPN      proper noun
+lowland     ADV        adverb
+where       SCONJ      subordinating conjunction
+to          ADP        adposition
+go          VERB       verb
+for         ADP        adposition
+peat        NOUN       noun
+the         PRON       pronoun
+land        NOUN       noun
+be          AUX        auxiliary
+well        ADV        adverb
+lie         VERB       verb
+fairly      ADV        adverb
+to          ADP        adposition
+the         PRON       pronoun
+south       ADV        adverb
+tis         ADJ        adjective
+good        ADJ        adjective
+when        SCONJ      subordinating conjunction
+you         PRON       pronoun
+have        VERB       verb
+cross       VERB       verb
+the         PRON       pronoun
+sea         NOUN       noun
+and         CCONJ      coordinating conjunction
+back        ADV        adverb
+to          ADP        adposition
+find        VERB       verb
+the         PRON       pronoun
+sitfast     NOUN       noun
+acre        NOUN       noun
+where       SCONJ      subordinating conjunction
+you         PRON       pronoun
+leave       VERB       verb
+they        PRON       pronoun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['Flint', 'toil', 'wood', 'farm', 's', 'trees', 'hill', 'flags', 'sympathize', 'soil', 'grounds', 'plough', 'boys', 'theirs', 'feet', 'grave', 'pond', 'domain', 'park', 'ledge', 'peat', 'south', 'back', 'them']
+
+Rhyme scheme - abcdefghibjklmnopqrsntuv
+
+Alliterating words - [['the', 'their', 'to', 'toil'], ['Hay', 'hemp', 'wool', 'wood'], ['mine', 'my', 'my', 's', 's'], ['west', 'wind', 'sweet', 'sounds'], ['How', 'hill'], ['these', 'the', 'fancy', 'flags'], ['me', 'my', 'does', 'dog'], ['And', 'affirm', 'smack', 'soil'], ['these', 'their'], ['they', 'their'], ['boastful', 'boys'], ['proud', 'proud', 'Earth', 'earth', 'the', 'theirs'], ['steer', 'steer', 'the', 'their'], ['to', 'to'], ['that', 'their'], ['This', 'that', 'me', 'my', 'pasture', 'park'], ['gravel', 'granite', 'lime', 'ledge'], ['land', 'lies', 'The', 'the'], ['the', 'them']]
+
+Number of alliterating words - 53
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.09, 'Angry': 0.16, 'Surprise': 0.25, 'Sad': 0.22, 'Fear': 0.28}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Surprise, Sad
+Creativity Score - 2.85

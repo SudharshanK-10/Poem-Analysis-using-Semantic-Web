@@ -1,8 +1,139 @@
-Rhyme Scheme: aabbcdeeaaaafg
-Number of Alliterations: 29
-Genre: Shakespearean Sonnet 
-Major Emotion: Sad
-Minor Emotions: Happy, Surprise
-----------------------
-Creativity Score: 5.34
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  --------------------
+Rhyme Scheme             aabbcdeeaaaafg
+Number of Alliterations  29
+Genre                    Shakespearean Sonnet
+Major Emotion            Sad
+Minor Emotion            Happy, Surprise
+-----------------------  --------------------
+CREATIVITY SCORE         5.34
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma     POS Tag    Explanation
+--------  ---------  ------------------------
+double    ADJ        adjective
+double    ADJ        adjective
+toil      NOUN       noun
+and       CCONJ      coordinating conjunction
+trouble   NOUN       noun
+fire      NOUN       noun
+burn      VERB       verb
+and       CCONJ      coordinating conjunction
+caldron   NOUN       noun
+bubble    NOUN       noun
+fillet    NOUN       noun
+of        ADP        adposition
+a         PRON       pronoun
+fenny     NOUN       noun
+snake     NOUN       noun
+in        ADP        adposition
+the       PRON       pronoun
+caldron   NOUN       noun
+boil      NOUN       noun
+and       CCONJ      coordinating conjunction
+bake      PROPN      proper noun
+eye       NOUN       noun
+of        ADP        adposition
+newt      NOUN       noun
+and       CCONJ      coordinating conjunction
+toe       NOUN       noun
+of        ADP        adposition
+frog      NOUN       noun
+wool      VERB       verb
+of        ADP        adposition
+bat       NOUN       noun
+and       CCONJ      coordinating conjunction
+tongue    NOUN       noun
+of        ADP        adposition
+dog       NOUN       noun
+adder     VERB       verb
+s         VERB       verb
+fork      VERB       verb
+and       CCONJ      coordinating conjunction
+blind     ADJ        adjective
+worm      NOUN       noun
+s         VERB       verb
+ste       VERB       verb
+lizard    NOUN       noun
+s         VERB       verb
+leg       NOUN       noun
+and       CCONJ      coordinating conjunction
+howlet    NOUN       noun
+s         VERB       verb
+wing      NOUN       noun
+for       ADP        adposition
+a         PRON       pronoun
+charm     NOUN       noun
+of        ADP        adposition
+powerful  ADJ        adjective
+trouble   NOUN       noun
+like      ADP        adposition
+a         PRON       pronoun
+hell      NOUN       noun
+broth     NOUN       noun
+boil      NOUN       noun
+and       CCONJ      coordinating conjunction
+bubble    NOUN       noun
+double    ADJ        adjective
+double    ADJ        adjective
+toil      NOUN       noun
+and       CCONJ      coordinating conjunction
+trouble   NOUN       noun
+fire      NOUN       noun
+burn      VERB       verb
+and       CCONJ      coordinating conjunction
+caldron   NOUN       noun
+bubble    NOUN       noun
+cool      ADJ        adjective
+it        PRON       pronoun
+with      ADP        adposition
+a         PRON       pronoun
+baboon    NOUN       noun
+s         VERB       verb
+blood     NOUN       noun
+then      ADV        adverb
+the       PRON       pronoun
+charm     NOUN       noun
+be        AUX        auxiliary
+firm      NOUN       noun
+and       CCONJ      coordinating conjunction
+good      ADJ        adjective
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['trouble', 'bubble', 'snake', 'bake', 'frog', 'dog', 'sting', 'wing', 'trouble', 'bubble', 'trouble', 'bubble', 'blood', 'good']
+
+Rhyme scheme - aabbcdeeaaaafg
+
+Alliterating words - [['Double', 'double', 'toil', 'trouble'], ['burn', 'bubble'], ['boil', 'bake'], ['of', 'of'], ['of', 'of'], ['s', 's'], ['Lizard', 'leg', 's', 's'], ['broth', 'boil', 'a', 'and', 'bubble'], ['Double', 'double', 'toil', 'trouble'], ['burn', 'bubble'], ['baboon', 'blood'], ['Then', 'the']]
+
+Number of alliterating words - 29
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Shakespearean Sonnet
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.24, 'Angry': 0.06, 'Surprise': 0.18, 'Sad': 0.41, 'Fear': 0.12}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Sad
+Minor Emotions - Happy, Surprise
+Creativity Score - 5.34

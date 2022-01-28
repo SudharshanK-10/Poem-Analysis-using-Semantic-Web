@@ -1,8 +1,158 @@
-Rhyme Scheme: abcdefghijjkkllmmnnoo
-Number of Alliterations: 30
-Genre: Artistic Free Verse 
-Major Emotion: Surprise
-Minor Emotions: Fear, Happy
-----------------------
-Creativity Score: 4.53
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ---------------------
+Rhyme Scheme             abcdefghijjkkllmmnnoo
+Number of Alliterations  30
+Genre                    Artistic Free Verse
+Major Emotion            Surprise
+Minor Emotion            Fear, Happy
+-----------------------  ---------------------
+CREATIVITY SCORE         4.53
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma        POS Tag    Explanation
+-----------  ---------  ------------------------
+the          PRON       pronoun
+lord         NOUN       noun
+of           ADP        adposition
+life         NOUN       noun
+the          PRON       pronoun
+lord         NOUN       noun
+of           ADP        adposition
+life         NOUN       noun
+I            PRON       pronoun
+see          VERB       verb
+they         PRON       pronoun
+pass         VERB       verb
+in           ADP        adposition
+their        PRON       pronoun
+own          ADJ        adjective
+guise        ADV        adverb
+like         ADP        adposition
+and          CCONJ      coordinating conjunction
+unlike       ADP        adposition
+portly       ADV        adverb
+and          CCONJ      coordinating conjunction
+grim         ADJ        adjective
+use          VERB       verb
+and          CCONJ      coordinating conjunction
+surprise     VERB       verb
+surface      VERB       verb
+and          CCONJ      coordinating conjunction
+dream        NOUN       noun
+succession   NOUN       noun
+swift        PROPN      proper noun
+and          CCONJ      coordinating conjunction
+spectral     ADJ        adjective
+wrong        ADJ        adjective
+temperament  NOUN       noun
+without      ADP        adposition
+a            PRON       pronoun
+tongue       NOUN       noun
+and          CCONJ      coordinating conjunction
+the          PRON       pronoun
+inventor     NOUN       noun
+of           ADP        adposition
+the          PRON       pronoun
+game         NOUN       noun
+omnipresent  VERB       verb
+without      ADP        adposition
+name         NOUN       noun
+some         PRON       pronoun
+to           ADP        adposition
+see          VERB       verb
+some         PRON       pronoun
+to           ADP        adposition
+be           AUX        auxiliary
+guess        VERB       verb
+they         PRON       pronoun
+march        VERB       verb
+from         ADP        adposition
+east         PROPN      proper noun
+to           ADP        adposition
+west         ADV        adverb
+little       ADJ        adjective
+man          NOUN       noun
+least        ADJ        adjective
+of           ADP        adposition
+all          PRON       pronoun
+among        ADP        adposition
+the          PRON       pronoun
+leg          NOUN       noun
+of           ADP        adposition
+his          PRON       pronoun
+guardian     NOUN       noun
+tall         ADJ        adjective
+walk         VERB       verb
+about        ADP        adposition
+with         ADP        adposition
+puzzle       VERB       verb
+look         VERB       verb
+he           PRON       pronoun
+by           ADP        adposition
+the          PRON       pronoun
+hand         NOUN       noun
+dear         ADJ        adjective
+nature       NOUN       noun
+take         VERB       verb
+dearest      NOUN       noun
+nature       NOUN       noun
+strong       ADJ        adjective
+and          CCONJ      coordinating conjunction
+kind         ADV        adverb
+whisper      VERB       verb
+darling      NOUN       noun
+never        ADV        adverb
+mind         NOUN       noun
+to           ADP        adposition
+morrow       NOUN       noun
+they         PRON       pronoun
+will         AUX        auxiliary
+wear         NOUN       noun
+another      PRON       pronoun
+face         NOUN       noun
+the          PRON       pronoun
+founder      NOUN       noun
+thou         NOUN       noun
+these        PRON       pronoun
+be           AUX        auxiliary
+thy          PRON       pronoun
+race         NOUN       noun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['life', 'pass', 'guise', 'unlike', 'grim', 'Surprise', 'Dream', 'Wrong', 'tongue', 'game', 'name', 'guessed', 'west', 'all', 'tall', 'look', 'took', 'kind', 'mind', 'face', 'race']
+
+Rhyme scheme - abcdefghijjkkllmmnnoo
+
+Alliterating words - [['lords', 'life', 'The', 'the', 'lords', 'of', 'of', 'life'], ['and', 'unlike'], ['Succession', 'swift'], ['Temperament', 'tongue'], ['the', 'the'], ['Some', 'see', 'some', 'to', 'to'], ['Little', 'least'], ['Walked', 'with'], ['Him', 'hand'], ['will', 'wear'], ['The', 'thou', 'these', 'thy']]
+
+Number of alliterating words - 30
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.12, 'Angry': 0.06, 'Surprise': 0.44, 'Sad': 0.0, 'Fear': 0.38}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Fear, Happy
+Creativity Score - 4.53

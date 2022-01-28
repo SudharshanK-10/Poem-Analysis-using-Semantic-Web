@@ -1,8 +1,131 @@
-Rhyme Scheme: abcdefghijk
-Number of Alliterations: 18
-Genre: Artistic Free Verse 
-Major Emotion: Surprise
-Minor Emotions: Sad, Happy
-----------------------
-Creativity Score: 2.66
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  -------------------
+Rhyme Scheme             abcdefghijk
+Number of Alliterations  18
+Genre                    Artistic Free Verse
+Major Emotion            Surprise
+Minor Emotion            Sad, Happy
+-----------------------  -------------------
+CREATIVITY SCORE         2.66
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma       POS Tag    Explanation
+----------  ---------  ------------------------
+daughter    NOUN       noun
+of          ADP        adposition
+time        NOUN       noun
+the         PRON       pronoun
+hypocritic  ADJ        adjective
+day         NOUN       noun
+muffled     ADJ        adjective
+and         CCONJ      coordinating conjunction
+dumb        ADJ        adjective
+like        INTJ       interjection
+barefoot    ADV        adverb
+dervish     NOUN       noun
+and         CCONJ      coordinating conjunction
+march       VERB       verb
+single      ADJ        adjective
+in          ADP        adposition
+an          PRON       pronoun
+endless     ADJ        adjective
+file        NOUN       noun
+bring       VERB       verb
+diadem      VERB       verb
+and         CCONJ      coordinating conjunction
+fagot       NOUN       noun
+in          ADP        adposition
+their       PRON       pronoun
+hand        NOUN       noun
+to          ADP        adposition
+each        PRON       pronoun
+they        PRON       pronoun
+offer       NOUN       noun
+gift        NOUN       noun
+after       ADP        adposition
+his         PRON       pronoun
+will        AUX        auxiliary
+bread       NOUN       noun
+kingdom     NOUN       noun
+star        NOUN       noun
+or          CCONJ      coordinating conjunction
+sky         NOUN       noun
+that        PRON       pronoun
+hold        VERB       verb
+they        PRON       pronoun
+all         PRON       pronoun
+I           PRON       pronoun
+in          ADP        adposition
+my          PRON       pronoun
+pleach      VERB       verb
+garden      VERB       verb
+watch       VERB       verb
+the         PRON       pronoun
+pomp        NOUN       noun
+forgot      NOUN       noun
+my          PRON       pronoun
+morning     NOUN       noun
+wish        VERB       verb
+hastily     ADV        adverb
+take        VERB       verb
+a           PRON       pronoun
+few         ADJ        adjective
+herb        NOUN       noun
+and         CCONJ      coordinating conjunction
+apple       NOUN       noun
+and         CCONJ      coordinating conjunction
+the         PRON       pronoun
+day         NOUN       noun
+turn        VERB       verb
+and         CCONJ      coordinating conjunction
+depart      VERB       verb
+silent      ADJ        adjective
+I           PRON       pronoun
+too         ADV        adverb
+late        ADJ        adjective
+under       ADP        adposition
+she         PRON       pronoun
+solemn      ADV        adverb
+fillet      NOUN       noun
+see         VERB       verb
+the         PRON       pronoun
+scorn       VERB       verb
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['Days', 'dervishes', 'file', 'hands', 'will', 'all', 'pomp', 'hastily', 'Day', 'late', 'scorn']
+
+Rhyme scheme - abcdefghijk
+
+Alliterating words - [['Daughters', 'Days'], ['diadems', 'fagots'], ['stars', 'sky', 'that', 'them', 'or', 'all'], ['my', 'morning'], ['a', 'and', 'and'], ['Turned', 'too'], ['solemn', 'saw', 'scorn']]
+
+Number of alliterating words - 18
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Artistic Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.22, 'Angry': 0.11, 'Surprise': 0.33, 'Sad': 0.22, 'Fear': 0.11}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Surprise
+Minor Emotions - Sad, Happy
+Creativity Score - 2.66

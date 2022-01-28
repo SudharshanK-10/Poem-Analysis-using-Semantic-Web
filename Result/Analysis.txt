@@ -1,0 +1,19 @@
+Poem Name    Rhyme Scheme                                      Number of Alliterations  Genre                 Major Emotion    Minor Emotions      Creativity Score
+-----------  ----------------------------------------------  -------------------------  --------------------  ---------------  ----------------  ------------------
+Poem1        abacdedefgfghh                                                         31  Shakespearean Sonnet  Fear             Happy, Sad                      4.5
+Poem2        abcd                                                                    6  Limerick              Surprise         Sad, Fear                       2.29
+Poem3        abcddcefghhgiijkkjllmnnm                                               14  Free Verse            Fear             Sad, Angry                      4.38
+Poem4        abacddebecddfbfcddcbccdd                                               81  Artistic Free Verse   Surprise         Happy, Angry                    7.09
+Poem5        abcdefghijkldmnopqmrstuvwxyzdABCDEAFpGHIfbJKBd                         83  Narrative             Fear             Sad, Surprise                   3.38
+Poem6        aabbcdeeaaaafg                                                         29  Shakespearean Sonnet  Sad              Happy, Surprise                 5.34
+Poem7        abacdedfghghff                                                         26  Shakespearean Sonnet  Surprise         Sad, Happy                      3.81
+Poem8        ababcdcdefefgg                                                         35  Shakespearean Sonnet  Sad              Fear, Surprise                  4.88
+Poem9        aabccdeffghijkklmnopqrstuuvusw                                          6  Narrative             Sad              Happy, Surprise                 2.19
+Poem10       abcbdedefgfghiji                                                       28  Artistic Free Verse   Surprise         Sad, Fear                       4.59
+Poem11       abcdefghijjkkllmmnnoo                                                  30  Artistic Free Verse   Surprise         Fear, Happy                     4.53
+Poem12       abcdefghijklmnopqrstuovwxyoz                                           54  Narrative             Fear             Angry, Surprise                 3.28
+Poem13       abcdefghijk                                                            18  Artistic Free Verse   Surprise         Sad, Happy                      2.66
+Poem14       abcdefghibjklmnopqrsntuv                                               53  Artistic Free Verse   Fear             Surprise, Sad                   2.85
+Poem15       abcbdefeghghii                                                         43  Shakespearean Sonnet  Sad              Fear, Surprise                  4.79
+Poem16       abcdefghijklmnopqrstuuvwxyzA                                           58  Narrative             Fear             Sad, Angry                      2.82
+Poem17       aabccdeeeeffghigeeee                                                   38  Artistic Free Verse   Surprise         Sad, Happy                      5.85

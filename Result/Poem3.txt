@@ -1,8 +1,172 @@
-Rhyme Scheme: abcddcefghhgiijkkjllmnnm
-Number of Alliterations: 14
-Genre: Free Verse 
-Major Emotion: Fear
-Minor Emotions: Sad, Angry
-----------------------
-Creativity Score: 4.38
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ------------------------
+Rhyme Scheme             abcddcefghhgiijkkjllmnnm
+Number of Alliterations  14
+Genre                    Free Verse
+Major Emotion            Fear
+Minor Emotion            Sad, Angry
+-----------------------  ------------------------
+CREATIVITY SCORE         4.38
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma       POS Tag    Explanation
+----------  ---------  ------------------------
+rose        NOUN       noun
+their       PRON       pronoun
+sharp       ADJ        adjective
+spin        VERB       verb
+be          AUX        auxiliary
+go          VERB       verb
+not         PART       particle
+royal       ADJ        adjective
+in          ADP        adposition
+their       PRON       pronoun
+smell       VERB       verb
+alone       ADV        adverb
+but         CCONJ      coordinating conjunction
+in          ADP        adposition
+their       PRON       pronoun
+hue         NOUN       noun
+Maiden      PROPN      proper noun
+pink        NOUN       noun
+of          ADP        adposition
+odour       ADJ        adjective
+faint       ADJ        adjective
+daisy       NOUN       noun
+smell       NOUN       noun
+less        ADJ        adjective
+yet         ADV        adverb
+most        ADJ        adjective
+quaint      NOUN       noun
+and         CCONJ      coordinating conjunction
+sweet       ADJ        adjective
+thyme       NOUN       noun
+true        ADJ        adjective
+primrose    VERB       verb
+firstborn   ADJ        adjective
+child       NOUN       noun
+of          ADP        adposition
+ver         NOUN       noun
+merry       NOUN       noun
+springtime  NOUN       noun
+s           VERB       verb
+harbinger   NOUN       noun
+with        ADP        adposition
+she         PRON       pronoun
+bell        NOUN       noun
+dim         VERB       verb
+oxlip       NOUN       noun
+in          ADP        adposition
+their       PRON       pronoun
+cradle      NOUN       noun
+grow        VERB       verb
+marigold    NOUN       noun
+on          ADP        adposition
+death       NOUN       noun
+bed         NOUN       noun
+blow        VERB       verb
+lark        NOUN       noun
+heel        NOUN       noun
+trim        VERB       verb
+all         ADV        adverb
+dear        ADJ        adjective
+nature      NOUN       noun
+s           VERB       verb
+child       NOUN       noun
+sweet       ADJ        adjective
+lie         VERB       verb
+fore        NOUN       noun
+bride       NOUN       noun
+and         CCONJ      coordinating conjunction
+bridegroom  NOUN       noun
+s           VERB       verb
+foot        NOUN       noun
+blessing    NOUN       noun
+their       PRON       pronoun
+sense       NOUN       noun
+not         PART       particle
+an          PRON       pronoun
+angel       NOUN       noun
+of          ADP        adposition
+the         PRON       pronoun
+air         NOUN       noun
+bird        NOUN       noun
+melodious   ADJ        adjective
+or          CCONJ      coordinating conjunction
+bird        NOUN       noun
+fair        ADJ        adjective
+be          AUX        auxiliary
+absent      ADJ        adjective
+hence       ADV        adverb
+the         PRON       pronoun
+crow        NOUN       noun
+the         PRON       pronoun
+slanderous  ADJ        adjective
+cuckoo      NOUN       noun
+nor         CCONJ      coordinating conjunction
+the         PRON       pronoun
+boding      NOUN       noun
+raven       VERB       verb
+nor         CCONJ      coordinating conjunction
+chough      NOUN       noun
+hoar        PROPN      proper noun
+nor         CCONJ      coordinating conjunction
+chatter     VERB       verb
+pye         NOUN       noun
+May         PROPN      proper noun
+on          ADP        adposition
+our         PRON       pronoun
+bride       NOUN       noun
+house       PROPN      proper noun
+perch       NOUN       noun
+or          CCONJ      coordinating conjunction
+sing        VERB       verb
+or          CCONJ      coordinating conjunction
+with        ADP        adposition
+they        PRON       pronoun
+any         PRON       pronoun
+discord     NOUN       noun
+bring       VERB       verb
+but         CCONJ      coordinating conjunction
+from        ADP        adposition
+it          PRON       pronoun
+fly         VERB       verb
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['gone', 'alone', 'hue', 'faint', 'quaint', 'true', 'Ver', 'harbinger', 'dim', 'growing', 'blowing', 'trim', 'sweet', 'feet', 'sense', 'air', 'fair', 'hence', 'nor', 'hoar', 'pye', 'sing', 'bring', 'fly']
+
+Rhyme scheme - abcddcefghhgiijkkjllmnnm
+
+Alliterating words - [['beds', 'blowing'], ['bride', 'bridegroom', 'fore', 'feet'], ['Bird', 'bird'], ['The', 'the', 'crow', 'cuckoo'], ['boding', 'chough'], ['from', 'fly']]
+
+Number of alliterating words - 14
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Free Verse
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.11, 'Angry': 0.16, 'Surprise': 0.11, 'Sad': 0.26, 'Fear': 0.37}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Sad, Angry
+Creativity Score - 4.38

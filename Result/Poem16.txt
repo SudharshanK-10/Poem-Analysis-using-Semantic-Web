@@ -1,8 +1,266 @@
-Rhyme Scheme: abcdefghijklmnopqrstuuvwxyzA
-Number of Alliterations: 58
-Genre: Narrative 
-Major Emotion: Fear
-Minor Emotions: Sad, Angry
-----------------------
-Creativity Score: 2.82
-----------------------
+------------FINAL RESULT----------------
+
+-----------------------  ----------------------------
+Rhyme Scheme             abcdefghijklmnopqrstuuvwxyzA
+Number of Alliterations  58
+Genre                    Narrative
+Major Emotion            Fear
+Minor Emotion            Sad, Angry
+-----------------------  ----------------------------
+CREATIVITY SCORE         2.82
+----------------------   ------------------
+
+-------MODULE-WISE RESULTS---------
+
+------------------------------------
+------PRE PROCESSING MODULE-------
+------------------------------------
+
+Lemma         POS Tag    Explanation
+------------  ---------  ------------------------
+all           ADV        adverb
+the           PRON       pronoun
+world         NOUN       noun
+s             VERB       verb
+a             PRON       pronoun
+stage         NOUN       noun
+and           CCONJ      coordinating conjunction
+all           PRON       pronoun
+the           PRON       pronoun
+man           NOUN       noun
+and           CCONJ      coordinating conjunction
+woman         NOUN       noun
+merely        ADV        adverb
+player        NOUN       noun
+they          PRON       pronoun
+have          VERB       verb
+their         PRON       pronoun
+exit          VERB       verb
+and           CCONJ      coordinating conjunction
+their         PRON       pronoun
+entrance      NOUN       noun
+and           CCONJ      coordinating conjunction
+one           NUM        numeral
+man           NOUN       noun
+in            ADP        adposition
+his           PRON       pronoun
+time          NOUN       noun
+play          VERB       verb
+many          ADJ        adjective
+part          NOUN       noun
+his           PRON       pronoun
+act           VERB       verb
+be            AUX        auxiliary
+seven         NUM        numeral
+age           NOUN       noun
+at            ADP        adposition
+first         ADV        adverb
+the           PRON       pronoun
+infant        NOUN       noun
+mewl          VERB       verb
+and           CCONJ      coordinating conjunction
+puke          VERB       verb
+in            ADP        adposition
+the           PRON       pronoun
+nurse         NOUN       noun
+s             VERB       verb
+arm           NOUN       noun
+then          ADV        adverb
+the           PRON       pronoun
+whine         VERB       verb
+schoolboy     PROPN      proper noun
+with          ADP        adposition
+his           PRON       pronoun
+satchel       PROPN      proper noun
+and           CCONJ      coordinating conjunction
+shine         VERB       verb
+morning       NOUN       noun
+face          NOUN       noun
+creep         VERB       verb
+like          INTJ       interjection
+snail         NOUN       noun
+unwillingly   ADV        adverb
+to            ADP        adposition
+school        NOUN       noun
+and           CCONJ      coordinating conjunction
+then          ADV        adverb
+the           PRON       pronoun
+lover         PROPN      proper noun
+sigh          VERB       verb
+like          INTJ       interjection
+furnace       NOUN       noun
+with          ADP        adposition
+a             PRON       pronoun
+woeful        NOUN       noun
+ballad        PROPN      proper noun
+make          VERB       verb
+to            ADP        adposition
+his           PRON       pronoun
+mistress      NOUN       noun
+eyebrow       NOUN       noun
+then          ADV        adverb
+a             PRON       pronoun
+soldier       NOUN       noun
+full          ADJ        adjective
+of            ADP        adposition
+strange       ADJ        adjective
+oath          NOUN       noun
+and           CCONJ      coordinating conjunction
+bearded       ADJ        adjective
+like          INTJ       interjection
+the           PRON       pronoun
+pard          NOUN       noun
+jealous       ADJ        adjective
+in            ADP        adposition
+honor         NOUN       noun
+sudden        ADJ        adjective
+and           CCONJ      coordinating conjunction
+quick         ADJ        adjective
+in            ADP        adposition
+quarrel       NOUN       noun
+seek          VERB       verb
+the           PRON       pronoun
+bubble        NOUN       noun
+reputation    NOUN       noun
+even          ADV        adverb
+in            ADP        adposition
+the           PRON       pronoun
+cannon        NOUN       noun
+s             VERB       verb
+mouth         NOUN       noun
+and           CCONJ      coordinating conjunction
+then          ADV        adverb
+the           PRON       pronoun
+justice       NOUN       noun
+in            ADP        adposition
+fair          ADJ        adjective
+round         ADJ        adjective
+belly         NOUN       noun
+with          ADP        adposition
+good          ADJ        adjective
+capon         NOUN       noun
+line          VERB       verb
+with          ADP        adposition
+eye           NOUN       noun
+severe        ADJ        adjective
+and           CCONJ      coordinating conjunction
+beard         PROPN      proper noun
+of            ADP        adposition
+formal        ADJ        adjective
+cut           VERB       verb
+full          ADJ        adjective
+of            ADP        adposition
+wise          ADJ        adjective
+saw           NOUN       noun
+and           CCONJ      coordinating conjunction
+modern        ADJ        adjective
+instance      NOUN       noun
+and           CCONJ      coordinating conjunction
+so            ADV        adverb
+he            PRON       pronoun
+play          VERB       verb
+his           PRON       pronoun
+part          NOUN       noun
+the           PRON       pronoun
+sixth         ADJ        adjective
+age           NOUN       noun
+shift         NOUN       noun
+into          ADP        adposition
+the           PRON       pronoun
+lean          VERB       verb
+and           CCONJ      coordinating conjunction
+slippere      VERB       verb
+pantaloon     NOUN       noun
+with          ADP        adposition
+spectacle     NOUN       noun
+on            ADP        adposition
+nose          NOUN       noun
+and           CCONJ      coordinating conjunction
+pouch         NOUN       noun
+on            ADP        adposition
+side          NOUN       noun
+his           PRON       pronoun
+youthful      ADJ        adjective
+hose          PROPN      proper noun
+well          ADV        adverb
+save          VERB       verb
+a             PRON       pronoun
+world         NOUN       noun
+too           ADV        adverb
+wide          ADV        adverb
+for           ADP        adposition
+his           PRON       pronoun
+shrink        VERB       verb
+shank         VERB       verb
+and           CCONJ      coordinating conjunction
+his           PRON       pronoun
+big           ADJ        adjective
+manly         ADV        adverb
+voice         NOUN       noun
+turn          VERB       verb
+again         ADV        adverb
+toward        ADP        adposition
+childish      ADJ        adjective
+treble        ADJ        adjective
+pipe          NOUN       noun
+and           CCONJ      coordinating conjunction
+whistle       NOUN       noun
+in            ADP        adposition
+his           PRON       pronoun
+sound         NOUN       noun
+last          ADJ        adjective
+scene         NOUN       noun
+of            ADP        adposition
+all           PRON       pronoun
+that          PRON       pronoun
+end           VERB       verb
+this          PRON       pronoun
+strange       ADJ        adjective
+eventful      ADJ        adjective
+history       NOUN       noun
+be            AUX        auxiliary
+second        ADJ        adjective
+childishness  ADJ        adjective
+and           CCONJ      coordinating conjunction
+mere          ADV        adverb
+oblivion      NOUN       noun
+san           NOUN       noun
+tooth         NOUN       noun
+san           NOUN       noun
+eye           NOUN       noun
+san           NOUN       noun
+taste         NOUN       noun
+san           NOUN       noun
+everything    PRON       pronoun
+
+------------------------------------
+-----SYNTAX ONTOLOGY MODULE-------
+------------------------------------
+
+Last words - ['stage', 'players', 'entrances', 'parts', 'infant', 'arms', 'satchel', 'snail', 'lover', 'ballad', 'soldier', 'pard', 'quarrel', 'reputation', 'justice', 'lined', 'cut', 'instances', 'shifts', 'pantaloon', 'side', 'wide', 'voice', 'pipes', 'all', 'history', 'oblivion', 'everything']
+
+Rhyme scheme - abcdefghijklmnopqrstuuvwxyzA
+
+Alliterating words - [['And', 'and', 'men', 'merely'], ['They', 'their', 'their', 'exits', 'entrances'], ['man', 'many', 'plays', 'parts'], ['acts', 'At'], ['Mewling', 'puking'], ['Then', 'the', 'whining', 'with'], ['Unwillingly', 'And', 'then', 'the'], ['with', 'woeful'], ['Made', 'mistress'], ['in', 'in', 'quick', 'quarrel'], ['the', 'then', 'the'], ['he', 'his', 'plays', 'part', 'so', 'sixth'], ['on', 'on', 'spectacles', 'side'], ['His', 'hose', 'well', 'world', 'wide'], ['shrunk', 'shank', 'his', 'his'], ['Turning', 'toward', 'treble'], ['sound', 'scene'], ['That', 'this'], ['and', 'oblivion'], ['Sans', 'sans', 'sans', 'teeth', 'taste', 'sans']]
+
+Number of alliterating words - 58
+
+------------------------------------
+-----POETRY ONTOLOGY MODULE-------
+------------------------------------
+
+Genre - Narrative
+
+------------------------------------
+-----METAPHOR ONTOLOGY MODULE-------
+------------------------------------
+
+{'Happy': 0.11, 'Angry': 0.18, 'Surprise': 0.14, 'Sad': 0.21, 'Fear': 0.36}
+
+------------------------------------
+-----CATEGORISATION MODULE-----------
+------------------------------------
+
+Major Emotion - Fear
+Minor Emotions - Sad, Angry
+Creativity Score - 2.82
